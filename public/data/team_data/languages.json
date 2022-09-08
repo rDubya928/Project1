@@ -1,0 +1,1463 @@
+{
+    "alpha2Code":[
+        {
+            "code": "aa",
+            "native_name":"Afaraf",
+            "language_name":"Afar",
+            "language_family":"Afro-Asiatic",
+            "notes":""
+        },	    
+
+        {
+            "code": "ab",
+            "native_name":"аҧсуа бызшәа, аҧсшәа",
+            "language_name":"Abkhazian",
+            "language_family":"Northwest",
+            "notes":"also known as Abkhaz"
+        },
+
+        {
+            "code": "ae",
+            "native_name":"avesta",
+            "language_name":"Avestan",            
+            "language_family":"Indo-European",
+            "notes":"ancient language"
+        },
+							                    	
+        {
+            "code": "af",
+            "native_name":"Afrikaans",
+            "language_name":"Afrikaans",
+            "language_family":"Indo-European",
+            "notes":""
+        },	
+			  												  				                        	
+        {
+            "code": "ak",
+            "native_name":"Akan",
+            "language_name":"Akan",            
+            "language_family":"Niger–Congo",
+            "notes":"macrolanguage"
+        },
+												
+        {
+            "code": "am",
+            "native_name":"አማርኛ",
+            "language_name":"Amharic",            
+            "language_family":"Afro-Asiatic",
+            "notes":""
+        },  
+
+        {
+            "code": "an",
+            "native_name":"aragonés",
+            "language_name":"Aragonese",            
+            "language_family":"Indo-European",
+            "notes":"also known as Հայերէն"
+        },              
+        
+        {
+            "code": "ar",
+            "native_name":"العربية",
+            "language_name":"Arabic",            
+            "language_family":"Afro-Asiatic",
+            "notes":"macrolanguage, Standard Arabic is arb"
+        },        
+ 
+        {
+            "code": "as",
+            "native_name":"অসমীয়া",
+            "language_name":"Assamese",            
+            "language_family":"Indo-European",
+            "notes":""
+        },        
+        
+        {
+            "code": "av",
+            "native_name":"авар мацӀ, магӀарул мацӀ",
+            "language_name":"Avaric",            
+            "language_family":"Northeast",
+            "notes":"also known as Avar"
+        },        
+ 
+        {
+            "code": "ay",
+            "native_name":"aymar aru",
+            "language_name":"Aymara",            
+            "language_family":"Aymaran",
+            "notes":"macrolanguage"
+        },        
+ 
+        {
+            "code": "az",
+            "native_name":"azərbaycan dili, تۆرکجه",
+            "language_name":"Azerbaijani",            
+            "language_family":"Turkic",
+            "notes":""
+        },  																		
+
+        {
+            "code": "ba",
+            "native_name":"башҡорт теле",
+            "language_name":"Bashkir",            
+            "language_family":"Turkic",
+            "notes":""
+        },        
+        
+        {
+            "code": "be",
+            "native_name":"беларуская мова",
+            "language_name":"Belarusian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },        
+        
+        {
+            "code": "bg",
+            "native_name":"български език",
+            "language_name":"Bulgarian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },											
+
+        {
+            "code": "bi",
+            "native_name":"Bislama",
+            "language_name":"Bislama",            
+            "language_family":"Creole",
+            "notes":"Language formed from English and Ni-Vanuatu, with some French influence."
+        },
+
+        {
+            "code": "bm",
+            "native_name":"bamanankan",
+            "language_name":"Bambara",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },    
+
+        {
+            "code": "bn",
+            "native_name":"বাংলা",
+            "language_name":"Bengali",            
+            "language_family":"Indo-European",
+            "notes":"also known as Bangla"
+        },
+
+        {
+            "code": "bo",
+            "native_name":"བོད་ཡིག",
+            "language_name":"Tibetan",            
+            "language_family":"Sino-Tibetan",
+            "notes":"also known as Standard Tibetan"
+        },
+								
+        {
+            "code": "br",
+            "native_name":"brezhoneg",
+            "language_name":"Breton",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "bs",
+            "native_name":"bosanski jezik",
+            "language_name":"Bosnian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "ca",
+            "native_name":"català, valencià",
+            "language_name":"Catalan, Valencian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+        
+        {
+            "code": "ce",
+            "native_name":"нохчийн мотт",
+            "language_name":"Chechen",            
+            "language_family":"Northeast",
+            "notes":""
+        },        
+        
+        {
+            "code": "ch",
+            "native_name":"Chamoru",
+            "language_name":"Chamorro",            
+            "language_family":"Austronesian",
+            "notes":""
+        },        
+        
+        {
+            "code": "co",
+            "native_name":"corsu, lingua corsa",
+            "language_name":"Corsican",            
+            "language_family":"Indo-European",
+            "notes":""
+        },       
+        
+        {
+            "code": "cr",
+            "native_name":"ᓀᐦᐃᔭᐍᐏᐣ",
+            "language_name":"Cree",            
+            "language_family":"Algonquian",
+            "notes":"macrolanguage"
+        },        
+ 
+        {
+            "code": "cs",
+            "native_name":"čeština, český jazyk",
+            "language_name":"Czech",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "cu",
+            "native_name":"ѩзыкъ словѣньскъ",
+            "language_name":"Church Slavic, Old Slavonic, Church Slavonic, Old Bulgarian, Old Church Slavonic",            
+            "language_family":"Indo-European",
+            "notes":"ancient language used by Orthodox Church"
+        },
+
+        {
+            "code": "cv",
+            "native_name":"чӑваш чӗлхи",
+            "language_name":"Chuvash",            
+            "language_family":"Turkic",
+            "notes":""
+        },    
+
+        {
+            "code": "cy",
+            "native_name":"Cymraeg",
+            "language_name":"Welsh",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "da",
+            "native_name":"dansk",
+            "language_name":"Danish",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "de",
+            "native_name":"Deutsch",
+            "language_name":"German",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "dv",
+            "native_name":"ދިވެހި",
+            "language_name":"Divehi, Dhivehi, Maldivian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "dz",
+            "native_name":"རྫོང་ཁ",
+            "language_name":"Dzongkha",            
+            "language_family":"Sino-Tibetan",
+            "notes":""
+        },
+
+        {
+            "code": "ee",
+            "native_name":"Eʋegbe",
+            "language_name":"Ewe",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+        {
+            "code": "el",
+            "native_name":"ελληνικά",
+            "language_name":"Greek, Modern (1453–)",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "en",
+            "native_name":"English",
+            "language_name":"English",            
+            "language_family":"Indo-European",
+            "notes":""
+        },    
+
+        {
+            "code": "eo",
+            "native_name":"Esperanto",
+            "language_name":"Esperanto",            
+            "language_family":"Constructed",
+            "notes":"constructed, initiated from L.L. Zamenhof, 1887"
+        },
+
+        {
+            "code": "es",
+            "native_name":"Español",
+            "language_name":"Spanish, Castilian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "et",
+            "native_name":"eesti, eesti keel",
+            "language_name":"Estonian",            
+            "language_family":"Uralic",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "eu",
+            "native_name":"euskara, euskera",
+            "language_name":"Basque",            
+            "language_family":"Language isolate",
+            "notes":""
+        },
+				
+        {
+            "code": "fa",
+            "native_name":"فارسی",
+            "language_name":"Persian",            
+            "language_family":"Indo-European",
+            "notes":"macrolanguage, also known as Farsi"
+        },
+        										
+        {
+            "code": "ff",
+            "native_name":"Fulfulde, Pulaar, Pular",
+            "language_name":"Fulah",            
+            "language_family":"Niger–Congo",
+            "notes":"macrolanguage, also known as Fula"
+        },        
+    
+        {
+            "code": "fi",
+            "native_name":"suomi, suomen kieli",
+            "language_name":"Finnish",            
+            "language_family":"Uralic",
+            "notes":""
+        },        
+        
+        {
+            "code": "fj",
+            "native_name":"vosa Vakaviti",
+            "language_name":"Fijian",            
+            "language_family":"Austronesian",
+            "notes":""
+        },        
+        
+        {
+            "code": "fo",
+            "native_name":"føroyskt",
+            "language_name":"Faroese",            
+            "language_family":"Indo-European",
+            "notes":""
+        },        
+        
+        {
+            "code": "fr",
+            "native_name":"français, langue française",
+            "language_name":"French",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+        {
+            "code": "fy",
+            "native_name":"Frisian, Frysk",
+            "language_name":"Western",            
+            "language_family":"Indo-European",
+            "notes":"also known as Frisian"
+        },
+
+		{
+            "code": "ga",
+            "native_name":"Gaeilge",
+            "language_name":"Irish",            
+            "language_family":"Indo-European",
+            "notes":""
+        },    
+
+        {
+            "code": "gd",
+            "native_name":"Gaelic, Gàidhlig",
+            "language_name":"Gaelic, Scottish",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "gl",
+            "native_name":"Galego",
+            "language_name":"Galician",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "gn",
+            "native_name":"Avañe'ẽ",
+            "language_name":"Guarani",            
+            "language_family":"Tupian",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "gu",
+            "native_name":"ગુજરાતી",
+            "language_name":"Gujarati",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "gv",
+            "native_name":"Gaelg, Gailck",
+            "language_name":"Manx",            
+            "language_family":"Indo-European",
+            "notes":""
+        },	
+											
+        {
+            "code": "ha",
+            "native_name":"هَوُسَ",
+            "language_name":"Hausa (Hausa)",            
+            "language_family":"Afro-Asiatic",
+            "notes":""
+        },        
+        
+        {
+            "code": "he",
+            "native_name":"עברית",
+            "language_name":"Hebrew",            
+            "language_family":"Afro-Asiatic",
+            "notes":"Modern Hebrew, code changed in 1989"
+        },        
+        
+        {
+            "code": "hi",
+            "native_name":"हिन्दी, हिंदी",
+            "language_name":"Hindi",            
+            "language_family":"Indo-European",
+            "notes":""
+        },        
+        
+        {
+            "code": "ho",
+            "native_name":"Hiri Motu",
+            "language_name":"Hiri Motu",            
+            "language_family":"Austronesian",
+            "notes":""
+        },        
+        
+        {
+            "code": "hr",
+            "native_name":"hrvatski jezik",
+            "language_name":"Croatian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+        {
+            "code": "ht",
+            "native_name":"Kreyòl ayisyen",
+            "language_name":"Haitian, Haitian Creole",            
+            "language_family":"Creole",
+            "notes":""
+        },
+
+        {
+            "code": "hu",
+            "native_name":"magyar",
+            "language_name":"Hungarian",            
+            "language_family":"Uralic",
+            "notes":""
+        },  				
+																	
+        {
+            "code": "hy",
+            "native_name":"Հայերեն",
+            "language_name":"Armenian",            
+            "language_family":"Indo-European",
+            "notes":"Western Armenian"
+        },
+					
+        {
+            "code": "hz",
+            "native_name":"Otjiherero",
+            "language_name":"Herero",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+        
+        {
+            "code": "ia",
+            "native_name":"Interlingua",
+            "language_name":"Interlingua",            
+            "language_family":"Constructed",
+            "notes":"constructed by International Auxiliary Language Association"
+        },
+
+        {
+            "code": "id",
+            "native_name":"Bahasa Indonesia",
+            "language_name":"Indonesian",            
+            "language_family":"Austronesian",
+            "notes":"Covered by macrolanguage ms. Changed in 1989 from original"
+        },
+
+        {
+            "code": "ie",
+            "native_name":"(originally:) Occidental, (after WWII:)Interlingue",
+            "language_name":"Interlingue, Occidental",            
+            "language_family":"Constructed",
+            "notes":"constructed by Edgar de Wahl, first published in 1922"
+        },
+
+        {
+            "code": "ig",
+            "native_name":"Asụsụ Igbo",
+            "language_name":"Igbo",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+        
+        {
+            "code": "ii",
+            "native_name":"ꆈꌠ꒿, Nuosuhxop",
+            "language_name":"Sichuan Yi, Nuosu",            
+            "language_family":"Sino-Tibetan",
+            "notes":"Standard form of Yi languages"
+        },        
+        
+        {
+            "code": "ik",
+            "native_name":"Iñupiaq, Iñupiatun",
+            "language_name":"Inupiaq",            
+            "language_family":"Eskimo–Aleut",
+            "notes":"macrolanguage"
+        }, 
+	
+        {
+            "code": "io",
+            "native_name":"Ido",
+            "language_name":"Ido",            
+            "language_family":"Constructed",
+            "notes":"constructed by De Beaufront, 1907, as variation of Esperanto"
+        },        
+        
+        {
+            "code": "is",
+            "native_name":"Íslenska",
+            "language_name":"Icelandic",            
+            "language_family":"Indo-European",
+            "notes":""
+        },        
+        
+        {
+            "code": "it",
+            "native_name":"Italiano",
+            "language_name":"Italian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "iu",
+            "native_name":"ᐃᓄᒃᑎᑐᑦ",
+            "language_name":"Inuktitut",            
+            "language_family":"Eskimo–Aleut",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "ja",
+            "native_name":"日本語 (にほんご)",
+            "language_name":"Japanese",            
+            "language_family":"Japonic",
+            "notes":""
+        },    
+
+        {
+            "code": "jv",
+            "native_name":"ꦧꦱꦗꦮ, Basa Jawa",
+            "language_name":"Javanese",            
+            "language_family":"Austronesian",
+            "notes":""
+        },
+
+        {
+            "code": "ka",
+            "native_name":"ქართული",
+            "language_name":"Georgian",            
+            "language_family":"Kartvelian",
+            "notes":""
+        },
+
+        {
+            "code": "kg",
+            "native_name":"Kikongo",
+            "language_name":"Kongo",            
+            "language_family":"Niger–Congo",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "ki",
+            "native_name":"Gĩkũyũ",
+            "language_name":"Kikuyu, Gikuyu",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+
+        {
+            "code": "kj",
+            "native_name":"Kuanyama",
+            "language_name":"Kuanyama, Kwanyama",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+    
+        {
+            "code": "kk",
+            "native_name":"қазақ тілі",
+            "language_name":"Kazakh",            
+            "language_family":"Turkic",
+            "notes":""
+        },        
+        
+        {
+            "code": "kl",
+            "native_name":"kalaallisut, kalaallit oqaasii",
+            "language_name":"Kalaallisut, Greenlandic",            
+            "language_family":"Eskimo–Aleut",
+            "notes":""
+        },        
+        
+        {
+            "code": "km",
+            "native_name":"ខ្មែរ, ខេមរភាសា, ភាសាខ្មែរ",
+            "language_name":"Central Khmer",            
+            "language_family":"Austroasiatic",
+            "notes":"also known as Khmer or Cambodian"
+        },        
+        
+        {
+            "code": "kn",
+            "native_name":"ಕನ್ನಡ",
+            "language_name":"Kannada",            
+            "language_family":"Dravidian",
+            "notes":""
+        },   
+   
+        {
+            "code": "ko",							
+            "native_name":"한국어",
+            "language_name":"Korean",            
+            "language_family":"Koreanic",
+            "notes":""
+        },
+
+        {
+            "code": "kr",
+            "native_name":"Kanuri",
+            "language_name":"Kanuri",            
+            "language_family":"Nilo-Saharan",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "ks",
+            "native_name":"कश्मीरी, كشميري‎",
+            "language_name":"Kashmiri",            
+            "language_family":"Indo-European",
+            "notes":""
+        },    
+
+        {
+            "code": "ku",
+            "native_name":"Kurdî, کوردی",
+            "language_name":"Kurdish",            
+            "language_family":"Indo-European",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "kv",
+            "native_name":"коми кыв",
+            "language_name":"Komi",            
+            "language_family":"Uralic",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "kw",				
+            "native_name":"Kernewek",
+            "language_name":"Cornish",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "ky",					
+            "language_name":"Кыргызча, Кыргыз тили",            
+            "language_family":"Kirghiz, Kyrgyz",
+            "notes":"Turkic"
+        },
+
+
+        {
+            "code": "la",					
+            "native_name":"latine, lingua latina",
+            "language_name":"Latin",            
+            "language_family":"Indo-European",
+            "notes":"ancient language"
+        },
+        
+        {
+            "code": "lb",
+            "native_name":"Lëtzebuergesch",
+            "language_name":"Luxembourgish, Letzeburgesch",            
+            "language_family":"",
+            "notes":"Indo-European"
+        },        
+        
+        {
+            "code": "lg",
+            "native_name":"Luganda",
+            "language_name":"Ganda",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },        
+        
+        {
+            "code": "li",
+            "native_name":"Limburgs",
+            "language_name":"Limburgan, Limburger, Limburgish",            
+            "language_family":"Indo-European",
+            "notes":""
+        },        
+        
+        {
+            "code": "ln",
+            "native_name":"Lingála",
+            "language_name":"Lingala",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },        
+        
+        {
+            "code": "lo",
+            "native_name":"ພາສາລາວ",
+            "language_name":"Lao",            
+            "language_family":"Tai–Kadai",
+            "notes":""
+        },
+
+        {
+            "code": "lt",
+            "native_name":"lietuvių kalba",
+            "language_name":"Lithuanian",            
+            "language_family":"Indo-European",
+            "notes":"also known as Luba-Shaba"
+        },
+
+        {
+            "code": "lu",
+            "native_name":"Kiluba",
+            "language_name":"Luba-Katanga",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },    
+
+        {
+            "code": "lv",
+            "native_name":"latviešu valoda",
+            "language_name":"Latvian",            
+            "language_family":"Indo-European",
+            "notes":"macrolanguage"
+        },
+																				
+        {
+            "code": "mg",
+            "native_name":"fiteny malagasy",
+            "language_name":"Malagasy",            
+            "language_family":"Austronesian",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "mh",
+            "native_name":"Kajin M̧ajeļ",
+            "language_name":"Marshallese",            
+            "language_family":"Austronesian",
+            "notes":""
+        },
+
+        {
+            "code": "mi",
+            "native_name":"te reo Māori",
+            "language_name":"Maori",            
+            "language_family":"Austronesian",
+            "notes":"also known as Māori"
+        },
+
+        {
+            "code": "mk",
+            "native_name":"македонски јазик",
+            "language_name":"Macedonian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+        
+        {
+            "code": "ml",
+            "native_name":"മലയാളം",
+            "language_name":"Malayalam",            
+            "language_family":"Dravidian",
+            "notes":""
+        },        
+        
+        {
+            "code": "mn",
+            "native_name":"Монгол хэл",
+            "language_name":"Mongolian",            
+            "language_family":"Mongolic",
+            "notes":"macrolanguage"
+        },        
+											       
+        {
+            "code": "mr",
+            "native_name":"मराठी",
+            "language_name":"Marathi",            
+            "language_family":"Indo-European",
+            "notes":"also known as Marāṭhī"
+        },        
+        
+        {
+            "code": "ms",
+            "native_name":"Bahasa Melayu, بهاس ملايو‎",
+            "language_name":"Malay",            
+            "language_family":"Austronesian",
+            "notes":"macrolanguage, Indonesian is id"
+        },        
+        
+        {
+            "code": "mt",
+            "native_name":"Malti",
+            "language_name":"Maltese",            
+            "language_family":"Afro-Asiatic",
+            "notes":""
+        },
+        {
+            "code": "my",
+            "native_name":"ဗမာစာ",
+            "language_name":"Burmese",            
+            "language_family":"Sino-Tibetan",
+            "notes":"also known as Myanmar"
+        },
+
+        {
+            "code": "na",
+            "native_name":"Dorerin Naoero",
+            "language_name":"Nauru",            
+            "language_family":"Austronesian",
+            "notes":"also known as Nauruan"
+        },    
+
+        {
+            "code": "nb",
+            "native_name":"Norsk Bokmål",
+            "language_name":"Norwegian Bokmål",            
+            "language_family":"Indo-European",
+            "notes":"Covered by macrolanguage Norsk"
+        },
+
+        {
+            "code": "nd",
+            "native_name":"isiNdebele",
+            "language_name":"North Ndebele",            
+            "language_family":"Niger–Congo",
+            "notes":"also known as Northern Ndebele"
+        },
+
+        {
+            "code": "ne",
+            "native_name":"नेपाली",
+            "language_name":"Nepali",            
+            "language_family":"Indo-European",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "ng",
+            "native_name":"Owambo",
+            "language_name":"Ndonga",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+
+        {
+            "code": "nl",
+            "native_name":"Nederlands, Vlaams",
+            "language_name":"Dutch, Flemish",            
+            "language_family":"Indo-European",
+            "notes":"Flemish is not to be confused with the closely related West Flemish which is referred to as Vlaams (Dutch for 'Flemish')"
+        },
+        
+        {
+            "code": "nn",
+            "native_name":"Norsk Nynorsk",
+            "language_name":"Norwegian Nynorsk",            
+            "language_family":"Indo-European",
+            "notes":"Covered by macrolanguage Norsk"
+        },        
+        
+        {
+            "code": "no",
+            "native_name":"Norsk",
+            "language_name":"Norwegian",            
+            "language_family":"Indo-European",
+            "notes":"macrolanguage, includes Bokmål and Nynorsk"
+        },        
+        
+        {
+            "code": "nr",
+            "native_name":"isiNdebele",
+            "language_name":"South Ndebele",            
+            "language_family":"Niger–Congo",
+            "notes":"also known as Southern Ndebele"
+        },        
+        
+        {
+            "code": "nv",
+            "native_name":"Diné bizaad",
+            "language_name":"Navajo, Navaho",            
+            "language_family":"Dené–Yeniseian",
+            "notes":""
+        },
+
+        {
+            "code": "ny",
+            "native_name":"chiCheŵa, chinyanja",
+            "language_name":"Chichewa, Chewa, Nyanja",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+			
+        {
+            "code": "oc",
+            "native_name":"d'òc",
+            "language_name":"Occitan, occitan, lenga",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "oj",
+            "native_name":"ᐊᓂᔑᓈᐯᒧᐎᓐ",
+            "language_name":"Ojibwa",            
+            "language_family":"Algonquian",
+            "notes":"macrolanguage, also known as Ojibwe"
+        },    
+
+        {
+            "code": "om",
+            "native_name":"Afaan Oromoo",
+            "language_name":"Oromo",            
+            "language_family":"Afro-Asiatic",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "or",
+            "native_name":"ଓଡ଼ିଆ",
+            "language_name":"Oriya",            
+            "language_family":"Indo-European",
+            "notes":"macrolanguage, also known as Odia"
+        },
+
+        {
+            "code": "os",
+            "native_name":"ирон æвзаг",
+            "language_name":"Ossetian, Ossetic",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+										
+        {
+            "code": "pa",
+            "native_name":"ਪੰਜਾਬੀ, پنجابی‎",
+            "language_name":"Punjabi, Panjabi",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "pi",
+            "native_name":"पालि, पाळि",
+            "language_name":"Pali",            
+            "language_family":"Indo-European",
+            "notes":"ancient, also known as Pāli"
+        },
+        
+        {
+            "code": "pl",
+            "native_name":"język polski, polszczyzna",
+            "language_name":"Polish",            
+            "language_family":"Indo-European",
+            "notes":""
+        },        
+        
+        {
+            "code": "ps",
+            "native_name":"پښتو",
+            "language_name":"Pashto, Pushto",            
+            "language_family":"Indo-European",
+            "notes":"macrolanguage"
+        },        
+        
+        {
+            "code": "pt",
+            "native_name":"Português",
+            "language_name":"Portuguese",            
+            "language_family":"Indo-European",
+            "notes":""
+        }, 
+     
+        {
+            "code": "qu",
+		 							
+            "native_name":"Quechua",
+            "language_name":"Kichwa, Runa Simi,",            
+            "language_family":"Quechuan",
+            "notes":"macrolanguage"
+        },        
+        										
+        {
+            "code": "rm",
+            "native_name":"Grischun",
+            "language_name":"Romansh,Rumantsch",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "rn",
+            "native_name":"Ikirundi",
+            "language_name":"Rundi",            
+            "language_family":"Niger–Congo",
+            "notes":"also known as Kirundi"
+        },
+
+        {
+            "code": "ro",
+            "native_name":"Română, Moldovenească",
+            "language_name":"Romanian, Moldavian, Moldovan",            
+            "language_family":"Indo-European",
+            "notes":"Variant of the Romanian language also known as Moldavian and Moldovan in English and moldave in French."
+        },    
+
+        {
+            "code": "ru",
+            "native_name":"русский",
+            "language_name":"Russian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "rw",
+            "native_name":"Ikinyarwanda",
+            "language_name":"Kinyarwanda",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+
+        {
+            "code": "sa",
+            "native_name":"संस्कृतम्",
+            "language_name":"Sanskrit",            
+            "language_family":"Indo-European",
+            "notes":"ancient language"
+        },
+
+        {
+            "code": "sc",
+            "native_name":"sardu",
+            "language_name":"Sardinian",            
+            "language_family":"Indo-European",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "sd",
+            "native_name":"सिन्धी, سنڌي، سندھی",
+            "language_name":"Sindhi",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+        
+        {
+            "code": "se",
+            "native_name":"Davvisámegiella",
+            "language_name":"Sami",            
+            "language_family":"Uralic",
+            "notes":""
+        },   
+ 
+        {
+            "code": "sg",
+            "native_name":"yângâ tî sängö",
+            "language_name":"Sango",            
+            "language_family":"Creole",
+            "notes":""
+        },        
+        
+        {
+            "code": "si",
+            "native_name":"සිංහල",
+            "language_name":"Sinhala, Sinhalese",            
+            "language_family":"Indo-European",
+            "notes":""
+        },        
+        
+        {
+            "code": "sk",
+            "native_name":"jazyk",
+            "language_name":"Slovak, Slovenčina, Slovenský",            
+            "language_family":"Indo-European",
+            "notes":""
+        },   
+
+        {
+            "code": "sl",
+            "native_name":"Slovenski jezik, Slovenščina",
+            "language_name":"Slovenian",            
+            "language_family":"Indo-European",
+            "notes":"also known as Slovene"
+        },
+
+        {
+            "code": "sm",
+            "native_name":"gagana fa'a Samoa",
+            "language_name":"Samoan",            
+            "language_family":"Austronesian",
+            "notes":""
+        },
+							
+        {
+            "code": "sn",
+            "native_name":"chiShona",
+            "language_name":"Shona",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+        
+        {
+            "code": "so",
+            "native_name":"Soomaaliga, af Soomaali",
+            "language_name":"Somali",            
+            "language_family":"Afro-Asiatic",
+            "notes":""
+        },  
+
+        {
+            "code": "sq",
+            "native_name":"Shqip",
+            "language_name":"Albanian",            
+            "language_family":"Indo-European",
+            "notes":"macrolanguage, Albanian Phylozone"
+        },      
+        
+        {
+            "code": "sr",	
+            "native_name":"српски језик",
+            "language_name":"Serbian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },        
+        
+        {
+            "code": "ss",
+            "native_name":"SiSwati",
+            "language_name":"Swati",            
+            "language_family":"Niger–Congo",
+            "notes":"also known as Swazi"
+        },        
+        
+        {
+            "code": "st",
+            "native_name":"Sesotho",
+            "language_name":"Sotho",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },        
+        
+        {
+            "code": "su",
+            "native_name":"Basa Sunda",
+            "language_name":"Sundanese",            
+            "language_family":"Austronesian",
+            "notes":""
+        },
+        {
+            "code": "sv",
+            "native_name":"Svenska",
+            "language_name":"Swedish",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "sw",	
+            "native_name":"Kiswahili",
+            "language_name":"Swahili",            
+            "language_family":"Niger–Congo",
+            "notes":"macrolanguage"
+        },       
+
+        {
+            "code": "ta",
+            "native_name":"தமிழ்",
+            "language_name":"Tamil",            
+            "language_family":"Dravidian",
+            "notes":""
+        },
+        {
+            "code": "te",
+            "native_name":"తెలుగు",
+            "language_name":"Telugu",            
+            "language_family":"Dravidian",
+            "notes":""
+        },
+
+        {
+            "code": "tg",
+            "native_name":"تاجیکی‎,тоҷикӣ, toçikī",
+            "language_name":"Tajik",            
+            "language_family":"Indo-European",
+            "notes":""
+        },    
+
+        {
+            "code": "th",
+            "native_name":"ไทย",
+            "language_name":"Thai",            
+            "language_family":"Tai–Kadai",
+            "notes":""
+        },
+
+        {
+            "code": "ti",									
+            "native_name":"ትግርኛ",
+            "language_name":"Tigrinya",            
+            "language_family":"Afro-Asiatic",
+            "notes":""
+        },
+
+        {
+            "code": "tk", 
+            "native_name":"Түркмен",
+            "language_name":"Turkmen, Türkmen",            
+            "language_family":"Turkic",
+            "notes":""
+        },
+
+        {
+            "code": "tl",		 									
+
+            "native_name":"Tagalog",
+            "language_name":"Tagalog, Wikang",            
+            "language_family":"Austronesian",
+            "notes":""
+        },
+
+        {
+            "code": "tn",											
+
+            "native_name":"Setswana",
+            "language_name":"Tswana",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+
+        {
+            "code": "to",									
+
+            "native_name":"Faka Tonga",
+            "language_name":"Tonga (Tonga Islands)",            
+            "language_family":"Austronesian",
+            "notes":"also known as Tongan"
+        },
+        {
+            "code": "tr",
+            "native_name":"Türkçe",
+            "language_name":"Turkish",            
+            "language_family":"Turkic",
+            "notes":""
+        },
+        
+        {
+            "code": "ts",	
+            "native_name":"Xitsonga",
+            "language_name":"Tsonga",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },        
+        
+        {
+            "code": "tt",	
+            "native_name":"татар теле, tatar tele",
+            "language_name":"Tatar",            
+            "language_family":"Turkic",
+            "notes":""
+        },        
+        
+        {
+            "code": "tw",											
+
+            "native_name":"Twi",
+            "language_name":"Twi",            
+            "language_family":"Niger–Congo",
+            "notes":"Covered by macrolanguage Akan"
+        },        
+        
+        {
+            "code": "ty",	
+            "native_name":"Reo Tahiti",
+            "language_name":"Tahitian",            
+            "language_family":"Austronesian",
+            "notes":"One of the Reo Mā`ohi (languages of French Polynesia)"
+        },        
+        
+        {
+            "code": "ug",
+            "native_name":"ئۇيغۇرچە‎, Uyghurche",
+            "language_name":"Uighur, Uyghur",            
+            "language_family":"Turkic",
+            "notes":""
+        },
+        {
+            "code": "uk",	
+            "native_name":"Українська",
+            "language_name":"Ukrainian",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+
+        {
+            "code": "ur",	
+            "native_name":"اردو",
+            "language_name":"Urdu",            
+            "language_family":"Indo-European",
+            "notes":""
+        },    
+
+        {
+            "code": "uz",
+            "native_name":"Oʻzbek, Ўзбек, أۇزبېك",
+            "language_name":"Uzbek",            
+            "language_family":"Turkic",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "ve",
+            "native_name":"Tshivenḓa",
+            "language_name":"Venda",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },
+
+        {
+            "code": "vi",	
+            "native_name":"Tiếng Việt",
+            "language_name":"Vietnamese",            
+            "language_family":"Austroasiatic",
+            "notes":""
+        },
+
+        {
+            "code": "vo",	
+            "native_name":"Volapük",
+            "language_name":"Volapük",            
+            "language_family":"Constructed",
+            "notes":""
+        },
+
+        {
+            "code": "wa",
+            "native_name":"Walon",
+            "language_name":"Walloon",            
+            "language_family":"Indo-European",
+            "notes":""
+        },
+        
+        {
+            "code": "wo",	
+            "native_name":"Wollof",
+            "language_name":"Wolof",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },        
+        
+        {
+            "code": "xh",
+            "native_name":"isiXhosa",
+            "language_name":"Xhosa",            
+            "language_family":"Niger–Congo",
+            "notes":""
+    },
+        {
+            "code": "yi",	
+            "native_name":"ייִדיש",
+            "language_name":"Yiddish",            
+            "language_family":"Indo-European",
+            "notes":"macrolanguage, changed in 1989"
+        },        
+        
+        {
+            "code": "yo",	
+            "native_name":"Yorùbá",
+            "language_name":"Yoruba",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        },        
+        
+        {
+            "code": "za",	
+            "native_name":"Saɯ cueŋƅ, Saw cuengh",
+            "language_name":"Zhuang, Chuang",            
+            "language_family":"Tai–Kadai",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "zh",
+            "native_name":"中文 (Zhōngwén), 汉语, 漢語",
+            "language_name":"Chinese",            
+            "language_family":"Sino-Tibetan",
+            "notes":"macrolanguage"
+        },
+
+        {
+            "code": "zu",
+            "native_name":"isiZulu",
+            "language_name":"Zulu",            
+            "language_family":"Niger–Congo",
+            "notes":""
+        }
+    ]
+} 

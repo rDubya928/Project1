@@ -1,0 +1,3523 @@
+@media screen and (max-width: 1366px) {
+  body {
+    background-color: #0d6efd;
+  }
+  #parent-container #login {
+    width: 100%;
+    height: 60vmin;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-banner {
+    margin: 25% 00% 00% 00%;
+    text-align: center;
+    font-size: 07.5vmin;
+    font-weight: lighter;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+    -webkit-animation-name: fade-in;
+            animation-name: fade-in;
+    -webkit-animation-duration: 02s;
+            animation-duration: 02s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 00%;
+    }
+    25% {
+      opacity: 25%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 00%;
+    }
+    25% {
+      opacity: 25%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  #parent-container #login #login-banner #banner-icon {
+    -webkit-animation-name: blink;
+            animation-name: blink;
+    -webkit-animation-duration: 02s;
+            animation-duration: 02s;
+    -webkit-animation-delay: 02s;
+            animation-delay: 02s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes blink {
+    0% {
+      color: #f5f5f5;
+    }
+    50% {
+      color: #28a745;
+    }
+    100% {
+      color: #f5f5f5;
+    }
+  }
+  @keyframes blink {
+    0% {
+      color: #f5f5f5;
+    }
+    50% {
+      color: #28a745;
+    }
+    100% {
+      color: #f5f5f5;
+    }
+  }
+  #parent-container #login #login-banner #login-btn {
+    padding-left: 02.5%;
+    padding-right: 02.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-banner #signup-link {
+    font-size: 02vmin;
+    font-weight: lighter;
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-banner #signup-link:hover {
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-card {
+    width: 35%;
+    height: 37.5vmin;
+    margin: 23% auto auto auto;
+    border-radius: 05px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #0d6efd;
+  }
+  #parent-container #login #login-card #login-back-arrow {
+    margin: 00.5% 00% 00% 01%;
+    float: left;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-card #login-back-arrow:hover {
+    color: #dc3545;
+  }
+  #parent-container #login #login-card #login-card-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-card #login-user, #parent-container #login #login-card #login-pass {
+    width: 75%;
+    margin: 05% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #login-card #alert {
+    color: #dc3545;
+  }
+  #parent-container #login #login-card #sign-in-btn {
+    margin: 05% 00% 00% 00%;
+    padding-left: 07.5%;
+    padding-right: 07.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card {
+    width: 35%;
+    height: 83.5vmin;
+    margin: 08% auto auto auto;
+    border-radius: 05px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #0d6efd;
+  }
+  #parent-container #login #signup-card #signup-back-arrow {
+    margin: 00.5% 00% 00% 01%;
+    float: left;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card #signup-back-arrow:hover {
+    color: #dc3545;
+  }
+  #parent-container #login #signup-card #signup-card-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card #signup-first-name,
+  #parent-container #login #signup-card #signup-last-name,
+  #parent-container #login #signup-card #signup-age,
+  #parent-container #login #signup-card #signup-location-city,
+  #parent-container #login #signup-card #signup-location-state,
+  #parent-container #login #signup-card #signup-email,
+  #parent-container #login #signup-card #create-user,
+  #parent-container #login #signup-card #create-pass {
+    width: 75%;
+    margin: 05% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #signup-card #signup-btn {
+    margin: 00% 00% 00% 00%;
+    padding-left: 07.5%;
+    padding-right: 07.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container nav {
+    width: 100%;
+    height: 06vmin;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container nav button {
+    margin: 00.8% 00% 00% 00.5%;
+    padding: 00.5% 00.75% 00.5% 00.75%;
+    border-radius: 05px;
+  }
+  #parent-container nav span {
+    margin: 00% 00.75% 00% 00%;
+    float: right;
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container nav .menu {
+    width: 15%;
+    margin: 00.496% 00% 00% 00%;
+    font-size: 01.75vmin;
+    border: 01px solid #0d6efd;
+    background-color: #0d6efd;
+  }
+  #parent-container nav .menu input {
+    width: 90%;
+    margin: 02.5% 00% 00% 04.5%;
+    border: 01px solid #0d6efd;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container nav .menu .dropdown-item {
+    color: #f5f5f5;
+  }
+  #parent-container nav .menu .dropdown-item:hover {
+    background-color: #28a745;
+  }
+  #parent-container #presentational {
+    width: 100%;
+    height: 90vmin;
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational .page {
+    height: 106vmin;
+    background-color: #e2dddd;
+    color: #282c34;
+  }
+  #parent-container #presentational #account-info-page #account-info-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #account-info-page #credentials-info button {
+    margin: 02.5% 00.25% 02.5% 00%;
+    font-size: 01.75vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset {
+    margin: 01% 00% 00% 01%;
+    text-align: left;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset label {
+    display: block;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .favorites-span {
+    display: block;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset textarea {
+    display: block;
+    width: 99%;
+    height: 12.5vmin;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list {
+    display: inline-block;
+    width: 65vmin;
+    height: 47vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item {
+    padding: 01% 02% 02.25% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item button {
+    float: right;
+    margin: 00.55% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list {
+    display: inline-block;
+    width: 65vmin;
+    height: 47vmin;
+    margin: 00% 00% 00% 00.5%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item {
+    padding: 01% 02% 02.25% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item button {
+    float: right;
+    margin: 00.55% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #id09,
+  #parent-container #presentational #account-info-page #id11 {
+    display: none;
+    background-color: #282c34;
+    opacity: 95%;
+  }
+  #parent-container #presentational #account-info-page #id09 .modal-content,
+  #parent-container #presentational #account-info-page #id11 .modal-content {
+    margin: 20% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #id09 .modal-header,
+  #parent-container #presentational #account-info-page #id11 .modal-header {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #account-info-page #id09 .close,
+  #parent-container #presentational #account-info-page #id11 .close {
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #id09 .close:hover,
+  #parent-container #presentational #account-info-page #id11 .close:hover {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #account-info-page #id09 #update-hdr,
+  #parent-container #presentational #account-info-page #id09 #delete-hdr,
+  #parent-container #presentational #account-info-page #id11 #update-hdr,
+  #parent-container #presentational #account-info-page #id11 #delete-hdr {
+    margin: 00% 00% 00% 00%;
+    font-size: 03vmin;
+  }
+  #parent-container #presentational #account-info-page #id09 .w3-col,
+  #parent-container #presentational #account-info-page #id11 .w3-col {
+    margin: 03% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #id09 input,
+  #parent-container #presentational #account-info-page #id11 input {
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #presentational #my-circle-page {
+    height: 90vmin;
+  }
+  #parent-container #presentational #my-circle-page #my-circle-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #my-circle-page #circle-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 84vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry {
+    height: 10vmin;
+    padding: 00.5% 01% 00% 00.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry i {
+    float: left;
+    margin: 00% 00% 00.75% 00%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry span {
+    float: left;
+    margin: 00% 00% 00% 00.5%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status {
+    float: right;
+    width: 10vmin;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .status-dot {
+    display: inline-block;
+    width: 01vmin;
+    height: 01vmin;
+    margin: 00% 05% 01.75% 00%;
+    border-radius: 50%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .online {
+    background-color: #28a745;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .offline {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:hover .status-dot {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #bulletin-board-page {
+    height: 90vmin;
+  }
+  #parent-container #presentational #bulletin-board-page #bulletin-board-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box {
+    margin: 02.5% 25% 00% 25%;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+    background-color: #282c34;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-post-input {
+    display: block;
+    width: 95%;
+    margin: 02.5% auto 00% auto;
+    padding: 00.5% 00.5% 00.5% 00.5%;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-post-btn, #parent-container #presentational #bulletin-board-page #bb-post-box #bb-share-btn {
+    margin: 00.5% 00% 00.5% 74%;
+    padding: 01% 02.5% 01% 02.5%;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-share-btn {
+    margin: 00.5% 00% 00.5% 01%;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread {
+    height: 52vmin;
+    margin: 00.5% 20% 01% 20%;
+    padding: 01% 01% 01% 01%;
+    text-align: justify;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry legend {
+    font-size: 01.75vmin;
+    font-weight: bold;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry span {
+    font-style: italic;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry p {
+    padding: 00.5% 00.5% 00.5% 00.5%;
+  }
+  #parent-container #presentational #bulletin-board-page #ad-space-left {
+    float: left;
+    width: 20vmin;
+    height: 86.5vmin;
+    margin: -66% 00% 00% 01%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #bulletin-board-page #ad-space-right {
+    float: right;
+    width: 20vmin;
+    height: 86.5vmin;
+    margin: -66% 01% 00% 00%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #bulletin-board-page .ad {
+    margin: 00% 00% 07.5% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad .ad-img {
+    width: 20vmin;
+    height: 10vmin;
+    margin: 01% 00% 00% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad p {
+    margin: 01% 08% 01% 08%;
+    font-size: 01.5vmin;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page {
+    height: 90vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-name {
+    display: block;
+    font-size: 02.5vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-age, #parent-container #presentational #profile-page .user-details .user-location {
+    display: block;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-location {
+    margin: 00% 00% 00.5% 00%;
+  }
+  #parent-container #presentational #profile-page #smartphone-tabs {
+    display: none;
+  }
+  #parent-container #presentational #profile-page #profile-tabs {
+    margin: 00% 00% 00% 36.45%;
+  }
+  #parent-container #presentational #profile-page .about-me-section {
+    margin: 00% 02.5% 00% 02.5%;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page .about-me-section fieldset {
+    margin: 01.5% 00% 02.5% 00%;
+  }
+  #parent-container #presentational #profile-page .about-me-section .bio legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions {
+    display: inline-block;
+    margin: 00% 02.625% 00% 00%;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 03%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list {
+    width: 35vmin;
+    height: 15vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item {
+    padding: 01% 00% 01% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities {
+    display: inline-block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons {
+    width: 85.6vmin;
+    height: 15vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span {
+    display: inline-block;
+    margin: 01% 02% 00% 02%;
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span i {
+    display: block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span:hover {
+    color: #28a745;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span {
+    display: inline-block;
+    margin: 01% 02% 00% 02%;
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span i {
+    display: block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span:hover {
+    color: #28a745;
+  }
+  #parent-container #presentational #profile-page .travel-log-section {
+    margin: 01% 02.5% 01% 02.5%;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page .travel-log-section legend {
+    font-size: 01.75vmin;
+    font-weight: bold;
+  }
+  #parent-container #presentational #profile-page .travel-log-section .travel-log-entry-list {
+    height: 65vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .travel-log-section .travel-log-entry-list .travel-log-entry span {
+    font-style: italic;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #map-page {
+    height: 90vmin;
+    background-color: #e2dddd;
+  }
+  #parent-container #presentational #map-page .modal-header {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #map-page .close {
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #map-page .close:hover {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #map-page .country-info {
+    font-size: 02.5vmin;
+    font-weight: bolder;
+    color: #282c34;
+  }
+  #parent-container #presentational #map-page #country-name {
+    font-size: 03vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #map-page #country-native {
+    font-size: 03vmin;
+    font-weight: lighter;
+    color: #6c757d;
+  }
+  #parent-container #presentational #map-page .box {
+    margin: 05% 00% 00% 00%;
+  }
+  #parent-container #presentational #map-page #id01 {
+    background-color: #282c34;
+    opacity: 95%;
+  }
+  #parent-container #presentational #map-page #id01 .modal-content {
+    margin: 20% 00% 00% 00%;
+  }
+  #parent-container #presentational #map-page #id03 {
+    display: none;
+    height: 30.1vmin;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  }
+  #parent-container #presentational #map-page #id04 {
+    display: none;
+    background-color: #f5f5f5;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  #parent-container #presentational #map-page #id05 {
+    display: none;
+    height: 30.1vmin;
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  }
+  #parent-container #presentational #map-page #weather-cell-container,
+  #parent-container #presentational #map-page #tides {
+    width: 250vmin;
+    height: 20vmin;
+    padding: 00% 03.5% 00% 00%;
+  }
+  #parent-container #presentational #map-page #weather-cell {
+    float: left;
+    text-align: center;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+    margin: 00.125% 00.125% 00.125% 00.125%;
+    padding: 00% 00.125% 00% 00.125%;
+    height: 100%;
+    width: 06%;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  #parent-container #presentational #map-page #tidal-graph .domain {
+    color: sandybrown;
+    stroke-width: 2;
+  }
+  #parent-container #presentational #map-page #tidal-graph .tick {
+    color: #6c757d;
+    font-weight: bolder;
+    opacity: 75%;
+  }
+  #parent-container #presentational #map-page #line {
+    fill: none;
+    stroke: #20c997;
+    stroke-width: 4;
+    stroke-linejoin: round;
+  }
+  #parent-container #presentational #map-page #line2 {
+    fill: none;
+    stroke: #17a2b8;
+    stroke-width: 4;
+    stroke-linejoin: round;
+  }
+  #parent-container #presentational #map-page #date {
+    font-size: 02vmin;
+    border-bottom: 1px solid #282c34;
+  }
+  #parent-container #presentational #map-page #high-temp {
+    font-size: 03.5vmin;
+    color: #dc3545;
+    text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+  }
+  #parent-container #presentational #map-page #low-temp {
+    font-size: 01.75vmin;
+    color: #0d6efd;
+    text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+  }
+  #parent-container #presentational #map-page #enhance {
+    font-size: 02vmin;
+    margin-right: 05%;
+  }
+  #parent-container #presentational #map-page #wind {
+    font-size: 02vmin;
+  }
+  #parent-container #presentational #map-page .sphere {
+    fill: #57a7f8;
+  }
+  #parent-container #presentational #map-page .country {
+    stroke: #0d6efd;
+    stroke-width: 0.25;
+  }
+  #parent-container #presentational #map-page .country:hover {
+    opacity: 80%;
+    stroke-width: 2.5;
+  }
+  #parent-container #presentational #map-page .north-america {
+    fill: #ffc107;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .south-america {
+    fill: #fd7e14;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .europe {
+    fill: #0d6efd;
+    stroke: #f5f5f5;
+  }
+  #parent-container #presentational #map-page .africa {
+    fill: #dc3545;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .asia,
+  #parent-container #presentational #map-page #Russia {
+    fill: #28a745;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .oceania {
+    fill: #6f42c1;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .antarctica {
+    fill: #f5f5f5;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .open-ocean {
+    fill: #e83e8c;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page #map-legend {
+    width: 100%;
+  }
+  #parent-container #presentational #map-page #map-legend #map-legend-hdr {
+    display: block;
+    margin: 00% 00% 01% 00%;
+    font-weight: bolder;
+  }
+  #parent-container #presentational #map-page #map-legend .keys .key-color {
+    display: inline-block;
+    width: 02vmin;
+    height: 02vmin;
+    margin: 00% 00% 00% 02.5%;
+    border: 00.25px solid #282c34;
+  }
+  #parent-container #presentational #map-page #map-legend .keys .key-label {
+    margin: 00% 02.5% 00% 00.5%;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #na-key {
+    background-color: #ffc107;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #sa-key {
+    background-color: #fd7e14;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #eu-key {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #af-key {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #as-key {
+    background-color: #28a745;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #oc-key {
+    background-color: #6f42c1;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #an-key {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #oo-key {
+    background-color: #e83e8c;
+  }
+  #parent-container #presentational #map-page #map-legend #map-pin-container {
+    width: 100vmin;
+    height: 03vmin;
+    margin: 01% auto 00% auto;
+  }
+  #parent-container #presentational #map-page #map-legend .map-pin {
+    font-size: 02.5vmin;
+  }
+  #parent-container #presentational #map-page #map-legend #map-pin-btn {
+    display: block;
+    margin: 01% auto 00% auto;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #settings-page {
+    height: 90vmin;
+  }
+  #parent-container #presentational #settings-page #settings-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container footer {
+    width: 100%;
+    height: 04vmin;
+    text-align: center;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container footer span {
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  body {
+    background-color: #0d6efd;
+  }
+  #parent-container #login {
+    width: 100%;
+    height: 70vmin;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-banner {
+    margin: 47.5% 00% 00% 00%;
+    text-align: center;
+    font-size: 07.5vmin;
+    font-weight: lighter;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+    -webkit-animation-name: fade-in;
+            animation-name: fade-in;
+    -webkit-animation-duration: 02s;
+            animation-duration: 02s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 00%;
+    }
+    25% {
+      opacity: 25%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 00%;
+    }
+    25% {
+      opacity: 25%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  #parent-container #login #login-banner #banner-icon {
+    -webkit-animation-name: blink;
+            animation-name: blink;
+    -webkit-animation-duration: 02s;
+            animation-duration: 02s;
+    -webkit-animation-delay: 02s;
+            animation-delay: 02s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes blink {
+    0% {
+      color: #f5f5f5;
+    }
+    50% {
+      color: #28a745;
+    }
+    100% {
+      color: #f5f5f5;
+    }
+  }
+  @keyframes blink {
+    0% {
+      color: #f5f5f5;
+    }
+    50% {
+      color: #28a745;
+    }
+    100% {
+      color: #f5f5f5;
+    }
+  }
+  #parent-container #login #login-banner #login-btn {
+    padding-left: 02.5%;
+    padding-right: 02.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-banner #signup-link {
+    font-size: 02vmin;
+    font-weight: lighter;
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-banner #signup-link:hover {
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-card {
+    width: 45%;
+    height: 37.5vmin;
+    margin: 47.5% auto auto auto;
+    border-radius: 05px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #0d6efd;
+  }
+  #parent-container #login #login-card #login-back-arrow {
+    margin: 00.5% 00% 00% 01%;
+    float: left;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-card #login-back-arrow:hover {
+    color: #dc3545;
+  }
+  #parent-container #login #login-card #login-card-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-card #login-user, #parent-container #login #login-card #login-pass {
+    width: 75%;
+    margin: 05% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #login-card #login-pass {
+    width: 75%;
+    margin: 05% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #login-card #alert {
+    color: #dc3545;
+  }
+  #parent-container #login #login-card #sign-in-btn {
+    margin: 05% 00% 00% 00%;
+    padding-left: 07.5%;
+    padding-right: 07.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card {
+    width: 45%;
+    height: 82.25vmin;
+    margin: 26% auto auto auto;
+    border-radius: 05px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #0d6efd;
+  }
+  #parent-container #login #signup-card #signup-back-arrow {
+    margin: 00.5% 00% 00% 01%;
+    float: left;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card #signup-back-arrow:hover {
+    color: #dc3545;
+  }
+  #parent-container #login #signup-card #signup-card-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card #signup-first-name,
+  #parent-container #login #signup-card #signup-last-name,
+  #parent-container #login #signup-card #signup-age,
+  #parent-container #login #signup-card #signup-location-city,
+  #parent-container #login #signup-card #signup-location-state,
+  #parent-container #login #signup-card #signup-email,
+  #parent-container #login #signup-card #create-user,
+  #parent-container #login #signup-card #create-pass {
+    width: 75%;
+    margin: 05% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #signup-card #signup-btn {
+    margin: 00% 00% 00% 00%;
+    padding-left: 07.5%;
+    padding-right: 07.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container nav {
+    width: 100%;
+    height: 06vmin;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container nav button {
+    margin: 01.2% 00% 00% 00.5%;
+    padding: 00.5% 00.75% 00.5% 00.75%;
+    border-radius: 05px;
+  }
+  #parent-container nav span {
+    margin: 00% 00.75% 00% 00%;
+    float: right;
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container nav .menu {
+    width: 20%;
+    margin: 00.496% 00% 00% 00%;
+    font-size: 01.75vmin;
+    border: 01px solid #0d6efd;
+    background-color: #0d6efd;
+  }
+  #parent-container nav .menu input {
+    width: 90%;
+    margin: 02.5% 00% 00% 04.5%;
+    border: 01px solid #0d6efd;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container nav .menu .dropdown-item {
+    color: #f5f5f5;
+  }
+  #parent-container nav .menu .dropdown-item:hover {
+    background-color: #28a745;
+  }
+  #parent-container #presentational {
+    width: 100%;
+    height: 123.4vmin;
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational .page {
+    height: 123.4vmin;
+    background-color: #e2dddd;
+    color: #282c34;
+  }
+  #parent-container #presentational #account-info-page {
+    height: 123.4vmin;
+  }
+  #parent-container #presentational #account-info-page #account-info-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #account-info-page #credentials-info button {
+    margin: 02.5% 00.25% 02.5% 00%;
+    font-size: 01.75vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset {
+    margin: 01% 00% 00% 01%;
+    text-align: left;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset label {
+    display: block;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .favorites-span {
+    display: block;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset textarea {
+    display: block;
+    width: 99%;
+    height: 12.5vmin;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list {
+    display: inline-block;
+    width: 48.75vmin;
+    height: 82.75vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item {
+    padding: 01% 02% 02.25% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item button {
+    float: right;
+    margin: 00.7% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list {
+    display: inline-block;
+    width: 48.75vmin;
+    height: 82.75vmin;
+    margin: 00% 00% 00% 00.5%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item {
+    padding: 01% 02% 02.25% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item button {
+    float: right;
+    margin: 00.7% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #id09,
+  #parent-container #presentational #account-info-page #id11 {
+    display: none;
+    background-color: #282c34;
+    opacity: 95%;
+  }
+  #parent-container #presentational #account-info-page #id09 .modal-content,
+  #parent-container #presentational #account-info-page #id11 .modal-content {
+    margin: 20% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #id09 .modal-header,
+  #parent-container #presentational #account-info-page #id11 .modal-header {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #account-info-page #id09 .close,
+  #parent-container #presentational #account-info-page #id11 .close {
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #id09 .close:hover,
+  #parent-container #presentational #account-info-page #id11 .close:hover {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #account-info-page #id09 #update-hdr,
+  #parent-container #presentational #account-info-page #id09 #delete-hdr,
+  #parent-container #presentational #account-info-page #id11 #update-hdr,
+  #parent-container #presentational #account-info-page #id11 #delete-hdr {
+    margin: 00% 00% 00% 00%;
+    font-size: 03vmin;
+  }
+  #parent-container #presentational #account-info-page #id09 .w3-col,
+  #parent-container #presentational #account-info-page #id11 .w3-col {
+    margin: 03% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #id09 input,
+  #parent-container #presentational #account-info-page #id11 input {
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #presentational #my-circle-page {
+    height: 123.4vmin;
+  }
+  #parent-container #presentational #my-circle-page #my-circle-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #my-circle-page #circle-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 84vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry {
+    height: 10vmin;
+    padding: 00.5% 01% 00% 00.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry i {
+    float: left;
+    margin: 00% 00% 00.75% 00%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry span {
+    float: left;
+    margin: 00% 00% 00% 00.5%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status {
+    float: right;
+    width: 10vmin;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .status-dot {
+    display: inline-block;
+    width: 01vmin;
+    height: 01vmin;
+    margin: 00% 05% 01.75% 00%;
+    border-radius: 50%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .online {
+    background-color: #28a745;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .offline {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:hover .status-dot {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #bulletin-board-page {
+    height: 123.4vmin;
+  }
+  #parent-container #presentational #bulletin-board-page #bulletin-board-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box {
+    margin: 02.5% 22.5% 00% 22.5%;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+    background-color: #282c34;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-post-input {
+    display: block;
+    width: 95%;
+    margin: 02.5% auto 00% auto;
+    padding: 00.5% 00.5% 00.5% 00.5%;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-post-btn, #parent-container #presentational #bulletin-board-page #bb-post-box #bb-share-btn {
+    margin: 00.5% 00% 00.5% 72%;
+    padding: 01% 02.5% 01% 02.5%;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-share-btn {
+    margin: 00.5% 00% 00.5% 01%;
+    padding: 01% 02.5% 01% 02.5%;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread {
+    height: 87vmin;
+    margin: 01% 20% 01% 20%;
+    padding: 01% 01% 01% 01%;
+    text-align: justify;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry legend {
+    font-size: 01.75vmin;
+    font-weight: bold;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry span {
+    font-style: italic;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry p {
+    padding: 00.5% 00.5% 00.5% 00.5%;
+  }
+  #parent-container #presentational #bulletin-board-page #ad-space-left {
+    float: left;
+    width: 20vmin;
+    height: 122vmin;
+    margin: -122% 00% 00% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page #ad-space-right {
+    float: right;
+    width: 20vmin;
+    height: 122vmin;
+    margin: -122% 00% 00% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad {
+    margin: 00% 00% 07.5% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad .ad-img {
+    width: 15vmin;
+    height: 07.5vmin;
+    margin: 01% 00% 00% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad p {
+    margin: 01% 12% 01% 12%;
+    font-size: 01.25vmin;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page {
+    height: 123.4vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-name {
+    display: block;
+    font-size: 03.5vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-age, #parent-container #presentational #profile-page .user-details .user-location {
+    display: block;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-location {
+    display: block;
+    margin: 00% 00% 00.5% 00%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page #smartphone-tabs {
+    display: none;
+  }
+  #parent-container #presentational #profile-page #profile-tabs {
+    margin: 00% 00% 00% 31.75%;
+  }
+  #parent-container #presentational #profile-page .about-me-section {
+    margin: 00% 02.5% 00% 02.5%;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page .about-me-section fieldset {
+    margin: 01.5% 00% 02.5% 00%;
+  }
+  #parent-container #presentational #profile-page .about-me-section .bio legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions {
+    display: inline-block;
+    margin: 00% 02.625% 00% 00%;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 03%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list {
+    width: 35vmin;
+    height: 15vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item {
+    padding: 01% 00% 01% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities {
+    display: inline-block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons {
+    width: 54.7vmin;
+    height: 15vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span {
+    display: inline-block;
+    margin: 01% 02% 00% 02%;
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span i {
+    display: block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span:hover {
+    color: #28a745;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span {
+    display: inline-block;
+    margin: 01% 02% 00% 02%;
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span i {
+    display: block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span:hover {
+    color: #28a745;
+  }
+  #parent-container #presentational #profile-page .travel-log-section {
+    margin: 01% 02.5% 01% 02.5%;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page .travel-log-section legend {
+    font-size: 01.75vmin;
+    font-weight: bold;
+  }
+  #parent-container #presentational #profile-page .travel-log-section .travel-log-entry-list {
+    height: 97vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .travel-log-section .travel-log-entry-list .travel-log-entry span {
+    font-style: italic;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #map-page {
+    height: 123.4vmin;
+    background-color: #e2dddd;
+  }
+  #parent-container #presentational #map-page .modal-header {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #map-page .close {
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #map-page .close:hover {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #map-page .country-info {
+    font-size: 02.5vmin;
+    font-weight: bolder;
+    color: #282c34;
+  }
+  #parent-container #presentational #map-page #country-name {
+    font-size: 03vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #map-page #country-native {
+    font-size: 03vmin;
+    font-weight: lighter;
+    color: #6c757d;
+  }
+  #parent-container #presentational #map-page .box {
+    margin: 05% 00% 00% 00%;
+  }
+  #parent-container #presentational #map-page #id01 {
+    background-color: #282c34;
+    opacity: 95%;
+  }
+  #parent-container #presentational #map-page #id01 .modal-content {
+    margin: 20% 00% 00% 00%;
+  }
+  #parent-container #presentational #map-page #id03 {
+    display: none;
+    height: 30.1vmin;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  }
+  #parent-container #presentational #map-page #id04 {
+    display: none;
+    background-color: #f5f5f5;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  #parent-container #presentational #map-page #id05 {
+    display: none;
+    height: 30.1vmin;
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  }
+  #parent-container #presentational #map-page #weather-cell-container,
+  #parent-container #presentational #map-page #tides {
+    width: 250vmin;
+    height: 20vmin;
+    padding: 00% 03.5% 00% 00%;
+  }
+  #parent-container #presentational #map-page #weather-cell {
+    float: left;
+    text-align: center;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+    margin: 00.125% 00.125% 00.125% 00.125%;
+    padding: 00% 00.125% 00% 00.125%;
+    height: 100%;
+    width: 06%;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  #parent-container #presentational #map-page #tidal-graph .domain {
+    color: sandybrown;
+    stroke-width: 2;
+  }
+  #parent-container #presentational #map-page #tidal-graph .tick {
+    color: #6c757d;
+    font-weight: bolder;
+    opacity: 75%;
+  }
+  #parent-container #presentational #map-page #line {
+    fill: none;
+    stroke: #20c997;
+    stroke-width: 4;
+    stroke-linejoin: round;
+  }
+  #parent-container #presentational #map-page #line2 {
+    fill: none;
+    stroke: #17a2b8;
+    stroke-width: 4;
+    stroke-linejoin: round;
+  }
+  #parent-container #presentational #map-page #date {
+    font-size: 02vmin;
+    border-bottom: 1px solid #282c34;
+  }
+  #parent-container #presentational #map-page #high-temp {
+    font-size: 03.5vmin;
+    color: #dc3545;
+    text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+  }
+  #parent-container #presentational #map-page #low-temp {
+    font-size: 01.75vmin;
+    color: #0d6efd;
+    text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+  }
+  #parent-container #presentational #map-page #enhance {
+    font-size: 02vmin;
+    margin-right: 05%;
+  }
+  #parent-container #presentational #map-page #wind {
+    font-size: 02vmin;
+  }
+  #parent-container #presentational #map-page .sphere {
+    fill: #57a7f8;
+  }
+  #parent-container #presentational #map-page .country {
+    stroke: #0d6efd;
+    stroke-width: 0.25;
+  }
+  #parent-container #presentational #map-page .country:hover {
+    opacity: 80%;
+    stroke-width: 2.5;
+  }
+  #parent-container #presentational #map-page .north-america {
+    fill: #ffc107;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .south-america {
+    fill: #fd7e14;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .europe {
+    fill: #0d6efd;
+    stroke: #f5f5f5;
+  }
+  #parent-container #presentational #map-page .africa {
+    fill: #dc3545;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .asia,
+  #parent-container #presentational #map-page #Russia {
+    fill: #28a745;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .oceania {
+    fill: #6f42c1;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .antarctica {
+    fill: #f5f5f5;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .open-ocean {
+    fill: #e83e8c;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page #map-legend {
+    width: 100%;
+  }
+  #parent-container #presentational #map-page #map-legend #map-legend-hdr {
+    display: block;
+    margin: 00% 00% 01% 00%;
+    font-weight: bolder;
+  }
+  #parent-container #presentational #map-page #map-legend .keys .key-color {
+    display: inline-block;
+    width: 02vmin;
+    height: 02vmin;
+    margin: 00% 00% 00% 02.5%;
+    border: 00.25px solid #282c34;
+  }
+  #parent-container #presentational #map-page #map-legend .keys .key-label {
+    margin: 00% 00% 00% 00.5%;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #na-key {
+    background-color: #ffc107;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #sa-key {
+    background-color: #fd7e14;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #eu-key {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #af-key {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #as-key {
+    background-color: #28a745;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #oc-key {
+    background-color: #6f42c1;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #an-key {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #oo-key {
+    background-color: #e83e8c;
+  }
+  #parent-container #presentational #map-page #map-legend #map-pin-container {
+    width: 100vmin;
+    height: 03vmin;
+    margin: 01% auto 00% auto;
+  }
+  #parent-container #presentational #map-page #map-legend .map-pin {
+    font-size: 02.5vmin;
+  }
+  #parent-container #presentational #map-page #map-legend #map-pin-btn {
+    display: block;
+    margin: 01% auto 00% auto;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #settings-page {
+    height: 123.4vmin;
+  }
+  #parent-container #presentational #settings-page #settings-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container footer {
+    width: 100%;
+    height: 04vmin;
+    text-align: center;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container footer span {
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  body {
+    background-color: #0d6efd;
+  }
+  #parent-container #login {
+    width: 100%;
+    height: 70vmin;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-banner {
+    margin: 22.5% 00% 00% 00%;
+    text-align: center;
+    font-size: 07.5vmin;
+    font-weight: lighter;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+    -webkit-animation-name: fade-in;
+            animation-name: fade-in;
+    -webkit-animation-duration: 02s;
+            animation-duration: 02s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 00%;
+    }
+    25% {
+      opacity: 25%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 00%;
+    }
+    25% {
+      opacity: 25%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  #parent-container #login #login-banner #banner-icon {
+    -webkit-animation-name: blink;
+            animation-name: blink;
+    -webkit-animation-duration: 02s;
+            animation-duration: 02s;
+    -webkit-animation-delay: 02s;
+            animation-delay: 02s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes blink {
+    0% {
+      color: #f5f5f5;
+    }
+    50% {
+      color: #28a745;
+    }
+    100% {
+      color: #f5f5f5;
+    }
+  }
+  @keyframes blink {
+    0% {
+      color: #f5f5f5;
+    }
+    50% {
+      color: #28a745;
+    }
+    100% {
+      color: #f5f5f5;
+    }
+  }
+  #parent-container #login #login-banner #login-btn {
+    padding-left: 02.5%;
+    padding-right: 02.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-banner #signup-link {
+    font-size: 02vmin;
+    font-weight: lighter;
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-banner #signup-link:hover {
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-card {
+    width: 45%;
+    height: 42.5vmin;
+    margin: 20.5% auto auto auto;
+    border-radius: 05px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #0d6efd;
+  }
+  #parent-container #login #login-card #login-back-arrow {
+    margin: 00.5% 00% 00% 01%;
+    float: left;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-card #login-back-arrow:hover {
+    color: #dc3545;
+  }
+  #parent-container #login #login-card #login-card-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-card #login-user, #parent-container #login #login-card #login-pass {
+    width: 75%;
+    margin: 05% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #login-card #login-pass {
+    width: 75%;
+    margin: 05% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #login-card #alert {
+    color: #dc3545;
+  }
+  #parent-container #login #login-card #sign-in-btn {
+    margin: 05% 00% 00% 00%;
+    padding-left: 07.5%;
+    padding-right: 07.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card {
+    width: 45%;
+    height: 98vmin;
+    margin: 00.75% auto 00.5% auto;
+    border-radius: 05px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #0d6efd;
+  }
+  #parent-container #login #signup-card #signup-back-arrow {
+    margin: 00.5% 00% 00% 01%;
+    float: left;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card #signup-back-arrow:hover {
+    color: #dc3545;
+  }
+  #parent-container #login #signup-card #signup-card-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card #signup-first-name,
+  #parent-container #login #signup-card #signup-last-name,
+  #parent-container #login #signup-card #signup-age,
+  #parent-container #login #signup-card #signup-location-city,
+  #parent-container #login #signup-card #signup-location-state,
+  #parent-container #login #signup-card #signup-email,
+  #parent-container #login #signup-card #create-user,
+  #parent-container #login #signup-card #create-pass {
+    width: 75%;
+    margin: 03.5% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #signup-card #signup-btn {
+    margin: 00% 00% 00% 00%;
+    padding-left: 07.5%;
+    padding-right: 07.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container nav {
+    width: 100%;
+    height: 06vmin;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container nav button {
+    margin: 00.5% 00% 00% 00.5%;
+    padding: 00.5% 00.75% 00.5% 00.75%;
+    border-radius: 05px;
+  }
+  #parent-container nav span {
+    margin: 00% 00.75% 00% 00%;
+    float: right;
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container nav .menu {
+    width: 20%;
+    margin: 00.496% 00% 00% 00%;
+    font-size: 02vmin;
+    border: 01px solid #0d6efd;
+    background-color: #0d6efd;
+  }
+  #parent-container nav .menu input {
+    width: 90%;
+    margin: 02.5% 00% 00% 04.5%;
+    border: 01px solid #0d6efd;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container nav .menu .dropdown-item {
+    color: #f5f5f5;
+  }
+  #parent-container nav .menu .dropdown-item:hover {
+    background-color: #28a745;
+  }
+  #parent-container #presentational {
+    width: 100%;
+    height: 90vmin;
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational .page {
+    height: 90vmin;
+    background-color: #e2dddd;
+    color: #282c34;
+  }
+  #parent-container #presentational #account-info-page {
+    height: 90vmin;
+  }
+  #parent-container #presentational #account-info-page #account-info-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #account-info-page #credentials-info button {
+    margin: 02.5% 00.25% 02.5% 00%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset {
+    margin: 00.5% 00% 00% 01%;
+    text-align: left;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset label {
+    display: block;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .favorites-span {
+    display: block;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset textarea {
+    display: block;
+    width: 99%;
+    height: 12.5vmin;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list {
+    display: inline-block;
+    width: 65vmin;
+    height: 44vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item {
+    padding: 01.75% 02% 05% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item button {
+    float: right;
+    margin: 00.7% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list {
+    display: inline-block;
+    width: 65vmin;
+    height: 44vmin;
+    margin: 00% 00% 00% 00.5%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item {
+    padding: 01.75% 02% 05% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item button {
+    float: right;
+    margin: 00.7% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #id09,
+  #parent-container #presentational #account-info-page #id11 {
+    display: none;
+    background-color: #282c34;
+    opacity: 95%;
+  }
+  #parent-container #presentational #account-info-page #id09 .modal-content,
+  #parent-container #presentational #account-info-page #id11 .modal-content {
+    margin: 20% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #id09 .modal-header,
+  #parent-container #presentational #account-info-page #id11 .modal-header {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #account-info-page #id09 .close,
+  #parent-container #presentational #account-info-page #id11 .close {
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #id09 .close:hover,
+  #parent-container #presentational #account-info-page #id11 .close:hover {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #account-info-page #id09 #update-hdr,
+  #parent-container #presentational #account-info-page #id09 #delete-hdr,
+  #parent-container #presentational #account-info-page #id11 #update-hdr,
+  #parent-container #presentational #account-info-page #id11 #delete-hdr {
+    margin: 00% 00% 00% 00%;
+    font-size: 03vmin;
+  }
+  #parent-container #presentational #account-info-page #id09 .w3-col,
+  #parent-container #presentational #account-info-page #id11 .w3-col {
+    margin: 03% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #id09 input,
+  #parent-container #presentational #account-info-page #id11 input {
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #presentational #my-circle-page {
+    height: 90vmin;
+  }
+  #parent-container #presentational #my-circle-page #my-circle-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #my-circle-page #circle-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 84.5vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry {
+    height: 10vmin;
+    padding: 00.5% 01% 00% 00.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry i {
+    float: left;
+    margin: 00% 00% 00.75% 00%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry span {
+    float: left;
+    margin: 00% 00% 00% 00.5%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status {
+    float: right;
+    width: 10vmin;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .status-dot {
+    display: inline-block;
+    width: 01vmin;
+    height: 01vmin;
+    margin: 00% 05% 01.75% 00%;
+    border-radius: 50%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .online {
+    background-color: #28a745;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .offline {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:hover .status-dot {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #bulletin-board-page {
+    height: 90vmin;
+  }
+  #parent-container #presentational #bulletin-board-page #bulletin-board-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box {
+    margin: 02.5% 22.5% 00% 22.5%;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+    background-color: #282c34;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-post-input {
+    display: block;
+    width: 95%;
+    margin: 02.5% auto 00% auto;
+    padding: 00.5% 00.5% 00.5% 00.5%;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-post-btn, #parent-container #presentational #bulletin-board-page #bb-post-box #bb-share-btn {
+    margin: 00.5% 00% 00.5% 72%;
+    padding: 01% 02.5% 01% 02.5%;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-share-btn {
+    margin: 00.5% 00% 00.5% 01%;
+    padding: 01% 02.5% 01% 02.5%;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread {
+    height: 43.5vmin;
+    margin: 01% 20% 01% 20%;
+    padding: 01% 01% 01% 01%;
+    text-align: justify;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry legend {
+    font-size: 01.75vmin;
+    font-weight: bold;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry span {
+    font-style: italic;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry p {
+    padding: 00.5% 00.5% 00.5% 00.5%;
+  }
+  #parent-container #presentational #bulletin-board-page #ad-space-left {
+    float: left;
+    width: 20vmin;
+    height: 86.5vmin;
+    margin: -66% 00% 00% 03%;
+  }
+  #parent-container #presentational #bulletin-board-page #ad-space-right {
+    float: right;
+    width: 20vmin;
+    height: 86.5vmin;
+    margin: -66% 03% 00% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad {
+    margin: 00% 00% 07.5% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad .ad-img {
+    width: 20vmin;
+    height: 10vmin;
+    margin: 01% 00% 00% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad p {
+    margin: 01% 08% 01% 08%;
+    font-size: 01.5vmin;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page {
+    height: 90vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-name {
+    display: block;
+    font-size: 03.5vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-age, #parent-container #presentational #profile-page .user-details .user-location {
+    display: block;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-location {
+    display: block;
+    margin: 00% 00% 00.5% 00%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page #smartphone-tabs {
+    display: none;
+  }
+  #parent-container #presentational #profile-page #profile-tabs {
+    margin: 00% 00% 00% 31.75%;
+  }
+  #parent-container #presentational #profile-page .about-me-section {
+    margin: 00% 02.5% 00% 02.5%;
+    text-align: justify;
+    font-size: 01.75vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section fieldset {
+    margin: 01.5% 00% 00% 00%;
+  }
+  #parent-container #presentational #profile-page .about-me-section fieldset legend {
+    font-size: 01.75vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .bio {
+    font-size: 01.75vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .bio legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions {
+    display: inline-block;
+    margin: 00% 02.625% 00% 00%;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 03%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list {
+    width: 40vmin;
+    height: 15vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item {
+    padding: 01% 00% 01% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities {
+    display: inline-block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons {
+    width: 79.7vmin;
+    height: 15vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span {
+    display: inline-block;
+    margin: 01% 02% 00% 02%;
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span i {
+    display: block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span:hover {
+    color: #28a745;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span {
+    display: inline-block;
+    margin: 01% 02% 00% 02%;
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span i {
+    display: block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span:hover {
+    color: #28a745;
+  }
+  #parent-container #presentational #profile-page .travel-log-section {
+    font-size: 01.75vmin;
+    margin: 01% 02.5% 01% 02.5%;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page .travel-log-section legend {
+    font-size: 01.75vmin;
+    font-weight: bold;
+  }
+  #parent-container #presentational #profile-page .travel-log-section .travel-log-entry-list {
+    height: 62vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .travel-log-section .travel-log-entry-list .travel-log-entry span {
+    font-style: italic;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #map-page {
+    height: 90vmin;
+    background-color: #e2dddd;
+  }
+  #parent-container #presentational #map-page .modal-header {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #map-page .close {
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #map-page .close:hover {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #map-page .country-info {
+    font-size: 02.5vmin;
+    font-weight: bolder;
+    color: #282c34;
+  }
+  #parent-container #presentational #map-page #country-name {
+    font-size: 03vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #map-page #country-native {
+    font-size: 03vmin;
+    font-weight: lighter;
+    color: #6c757d;
+  }
+  #parent-container #presentational #map-page .box {
+    margin: 01% 00% 00% 00%;
+  }
+  #parent-container #presentational #map-page #id01 {
+    background-color: #282c34;
+    opacity: 95%;
+  }
+  #parent-container #presentational #map-page #id01 .modal-content {
+    margin: 00% 00% 00% 00%;
+  }
+  #parent-container #presentational #map-page #id03 {
+    display: none;
+    height: 36.4vmin;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  }
+  #parent-container #presentational #map-page #id04 {
+    display: none;
+    background-color: #f5f5f5;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  #parent-container #presentational #map-page #id05 {
+    display: none;
+    height: 36.4vmin;
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  }
+  #parent-container #presentational #map-page #weather-cell-container,
+  #parent-container #presentational #map-page #tides {
+    width: 250vmin;
+    height: 20vmin;
+    padding: 00% 03.5% 00% 00%;
+  }
+  #parent-container #presentational #map-page #weather-cell {
+    float: left;
+    text-align: center;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+    margin: 00.125% 00.125% 00.125% 00.125%;
+    padding: 00% 00.125% 00% 00.125%;
+    height: 100%;
+    width: 06%;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  #parent-container #presentational #map-page #tidal-graph .domain {
+    color: sandybrown;
+    stroke-width: 2;
+  }
+  #parent-container #presentational #map-page #tidal-graph .tick {
+    color: #6c757d;
+    font-weight: bolder;
+    opacity: 75%;
+  }
+  #parent-container #presentational #map-page #line {
+    fill: none;
+    stroke: #20c997;
+    stroke-width: 4;
+    stroke-linejoin: round;
+  }
+  #parent-container #presentational #map-page #line2 {
+    fill: none;
+    stroke: #17a2b8;
+    stroke-width: 4;
+    stroke-linejoin: round;
+  }
+  #parent-container #presentational #map-page #date {
+    font-size: 02vmin;
+    border-bottom: 1px solid #282c34;
+  }
+  #parent-container #presentational #map-page #high-temp {
+    font-size: 03.5vmin;
+    color: #dc3545;
+    text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+  }
+  #parent-container #presentational #map-page #low-temp {
+    font-size: 01.75vmin;
+    color: #4646ff;
+    text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+  }
+  #parent-container #presentational #map-page #enhance {
+    font-size: 02vmin;
+    margin-right: 05%;
+  }
+  #parent-container #presentational #map-page #wind {
+    font-size: 02vmin;
+  }
+  #parent-container #presentational #map-page .sphere {
+    fill: #57a7f8;
+  }
+  #parent-container #presentational #map-page .country {
+    stroke: #0d6efd;
+    stroke-width: 0.25;
+  }
+  #parent-container #presentational #map-page .country:hover {
+    opacity: 80%;
+    stroke-width: 2.5;
+  }
+  #parent-container #presentational #map-page .north-america {
+    fill: #ffc107;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .south-america {
+    fill: #fd7e14;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .europe {
+    fill: #0d6efd;
+    stroke: #f5f5f5;
+  }
+  #parent-container #presentational #map-page .africa {
+    fill: #dc3545;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .asia,
+  #parent-container #presentational #map-page #Russia {
+    fill: #28a745;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .oceania {
+    fill: #6f42c1;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .antarctica {
+    fill: #f5f5f5;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .open-ocean {
+    fill: #e83e8c;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page #map-legend {
+    width: 100%;
+  }
+  #parent-container #presentational #map-page #map-legend #map-legend-hdr {
+    display: block;
+    margin: 00% 00% 01% 00%;
+    font-weight: bolder;
+  }
+  #parent-container #presentational #map-page #map-legend .keys .key-color {
+    display: inline-block;
+    width: 02vmin;
+    height: 02vmin;
+    margin: 00% 00% 00% 02.5%;
+    border: 00.25px solid #282c34;
+  }
+  #parent-container #presentational #map-page #map-legend .keys .key-label {
+    margin: 00% 00% 00% 00.5%;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #na-key {
+    background-color: #ffc107;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #sa-key {
+    background-color: #fd7e14;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #eu-key {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #af-key {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #as-key {
+    background-color: #28a745;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #oc-key {
+    background-color: #6f42c1;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #an-key {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #oo-key {
+    background-color: #e83e8c;
+  }
+  #parent-container #presentational #map-page #map-legend #map-pin-container {
+    width: 100vmin;
+    height: 03vmin;
+    margin: 01% auto 00% auto;
+  }
+  #parent-container #presentational #map-page #map-legend .map-pin {
+    font-size: 02.5vmin;
+  }
+  #parent-container #presentational #map-page #map-legend #map-pin-btn {
+    display: block;
+    margin: 01% auto 00% auto;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #settings-page {
+    height: 90vmin;
+  }
+  #parent-container #presentational #settings-page #settings-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container footer {
+    width: 100%;
+    height: 04vmin;
+    text-align: center;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container footer span {
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+}
+
+@media screen and (width: 768px) {
+  body {
+    background-color: #0d6efd;
+  }
+  #parent-container #login {
+    width: 100%;
+    height: 70vmin;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-banner {
+    margin: 47.5% 00% 00% 00%;
+    text-align: center;
+    font-size: 07.5vmin;
+    font-weight: lighter;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+    -webkit-animation-name: fade-in;
+            animation-name: fade-in;
+    -webkit-animation-duration: 02s;
+            animation-duration: 02s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 00%;
+    }
+    25% {
+      opacity: 25%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 00%;
+    }
+    25% {
+      opacity: 25%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    75% {
+      opacity: 75%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  #parent-container #login #login-banner #banner-icon {
+    -webkit-animation-name: blink;
+            animation-name: blink;
+    -webkit-animation-duration: 02s;
+            animation-duration: 02s;
+    -webkit-animation-delay: 02s;
+            animation-delay: 02s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes blink {
+    0% {
+      color: #f5f5f5;
+    }
+    50% {
+      color: #28a745;
+    }
+    100% {
+      color: #f5f5f5;
+    }
+  }
+  @keyframes blink {
+    0% {
+      color: #f5f5f5;
+    }
+    50% {
+      color: #28a745;
+    }
+    100% {
+      color: #f5f5f5;
+    }
+  }
+  #parent-container #login #login-banner #login-btn {
+    padding-left: 02.5%;
+    padding-right: 02.5%;
+    font-size: 02.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-banner #signup-link {
+    font-size: 02.5vmin;
+    font-weight: lighter;
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-banner #signup-link:hover {
+    color: #f5f5f5;
+  }
+  #parent-container #login #login-card {
+    width: 50%;
+    height: 40.5vmin;
+    margin: 45.5% auto auto auto;
+    border-radius: 05px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #0d6efd;
+  }
+  #parent-container #login #login-card #login-back-arrow {
+    margin: 00.5% 00% 00% 01%;
+    float: left;
+    font-size: 02.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-card #login-back-arrow:hover {
+    color: #dc3545;
+  }
+  #parent-container #login #login-card #login-card-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #login-card #login-user, #parent-container #login #login-card #login-pass {
+    width: 75%;
+    margin: 05% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #login-card #login-pass {
+    width: 75%;
+    margin: 05% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #login-card #alert {
+    color: #dc3545;
+  }
+  #parent-container #login #login-card #sign-in-btn {
+    margin: 05% 00% 00% 00%;
+    padding-left: 07.5%;
+    padding-right: 07.5%;
+    font-size: 02.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card {
+    width: 50%;
+    height: 91vmin;
+    margin: 22% auto auto auto;
+    border-radius: 05px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #0d6efd;
+  }
+  #parent-container #login #signup-card #signup-back-arrow {
+    margin: 00.5% 00% 00% 01%;
+    float: left;
+    font-size: 02.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card #signup-back-arrow:hover {
+    color: #dc3545;
+  }
+  #parent-container #login #signup-card #signup-card-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #login #signup-card #signup-first-name,
+  #parent-container #login #signup-card #signup-last-name,
+  #parent-container #login #signup-card #signup-age,
+  #parent-container #login #signup-card #signup-location-city,
+  #parent-container #login #signup-card #signup-location-state,
+  #parent-container #login #signup-card #signup-email,
+  #parent-container #login #signup-card #create-user,
+  #parent-container #login #signup-card #create-pass {
+    width: 75%;
+    margin: 03.5% 00% 01% 00%;
+    padding: 02.5% 00% 02.5% 00%;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #login #signup-card #signup-btn {
+    margin: 00% 00% 00% 00%;
+    padding-left: 07.5%;
+    padding-right: 07.5%;
+    font-size: 02.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container nav {
+    width: 100%;
+    height: 06vmin;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container nav button {
+    margin: 00.9% 00% 00% 00.5%;
+    padding: 00.5% 00.75% 00.5% 00.75%;
+    border-radius: 05px;
+  }
+  #parent-container nav span {
+    margin: 00% 00.75% 00% 00%;
+    float: right;
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container nav .menu {
+    width: 26%;
+    margin: 00.496% 00% 00% 00%;
+    font-size: 02vmin;
+    border: 01px solid #0d6efd;
+    background-color: #0d6efd;
+  }
+  #parent-container nav .menu input {
+    width: 90%;
+    margin: 02.5% 00% 00% 04.5%;
+    border: 01px solid #0d6efd;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container nav .menu .dropdown-item {
+    color: #f5f5f5;
+  }
+  #parent-container nav .menu .dropdown-item:hover {
+    background-color: #28a745;
+  }
+  #parent-container #presentational {
+    width: 100%;
+    height: 123.4vmin;
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational .page {
+    height: 123.4vmin;
+    background-color: #e2dddd;
+    color: #282c34;
+  }
+  #parent-container #presentational #account-info-page {
+    height: 123.4vmin;
+  }
+  #parent-container #presentational #account-info-page #account-info-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #account-info-page #credentials-info button {
+    margin: 02.5% 00.25% 02.5% 00%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset {
+    margin: 01% 00% 00% 01%;
+    text-align: left;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset label {
+    display: block;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .favorites-span {
+    display: block;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset textarea {
+    display: block;
+    width: 99%;
+    height: 12.5vmin;
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list {
+    display: inline-block;
+    width: 48.75vmin;
+    height: 78vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item {
+    padding: 02.5% 02% 02.5% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item button {
+    float: right;
+    margin: -01% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .activity-list .activity-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list {
+    display: inline-block;
+    width: 48.75vmin;
+    height: 78vmin;
+    margin: 00% 00% 00% 00.5%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item {
+    padding: 02.5% 02% 02.5% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item button {
+    float: right;
+    margin: -01% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #profile-info fieldset .destination-list .destination-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #id09,
+  #parent-container #presentational #account-info-page #id11 {
+    display: none;
+    background-color: #282c34;
+    opacity: 95%;
+  }
+  #parent-container #presentational #account-info-page #id09 .modal-content,
+  #parent-container #presentational #account-info-page #id11 .modal-content {
+    margin: 20% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #id09 .modal-header,
+  #parent-container #presentational #account-info-page #id11 .modal-header {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #account-info-page #id09 .close,
+  #parent-container #presentational #account-info-page #id11 .close {
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #account-info-page #id09 .close:hover,
+  #parent-container #presentational #account-info-page #id11 .close:hover {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #account-info-page #id09 #update-hdr,
+  #parent-container #presentational #account-info-page #id09 #delete-hdr,
+  #parent-container #presentational #account-info-page #id11 #update-hdr,
+  #parent-container #presentational #account-info-page #id11 #delete-hdr {
+    margin: 00% 00% 00% 00%;
+    font-size: 03vmin;
+  }
+  #parent-container #presentational #account-info-page #id09 .w3-col,
+  #parent-container #presentational #account-info-page #id11 .w3-col {
+    margin: 03% 00% 00% 00%;
+  }
+  #parent-container #presentational #account-info-page #id09 input,
+  #parent-container #presentational #account-info-page #id11 input {
+    border: 01px solid #6c757d;
+    border-radius: 05px;
+    text-align: center;
+  }
+  #parent-container #presentational #my-circle-page {
+    height: 123.4vmin;
+  }
+  #parent-container #presentational #my-circle-page #my-circle-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #my-circle-page #circle-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 84vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry {
+    height: 10vmin;
+    padding: 00.5% 01% 00% 00.5%;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry i {
+    float: left;
+    margin: 00% 00% 00.75% 00%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry span {
+    float: left;
+    margin: 00% 00% 00% 00.5%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status {
+    float: right;
+    width: 10vmin;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .status-dot {
+    display: inline-block;
+    width: 01vmin;
+    height: 01vmin;
+    margin: 00% 05% 01.75% 00%;
+    border-radius: 50%;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .online {
+    background-color: #28a745;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry .circle-online-status .offline {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #my-circle-page #circle-list .circle-list-entry:hover .status-dot {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #bulletin-board-page {
+    height: 123.4vmin;
+  }
+  #parent-container #presentational #bulletin-board-page #bulletin-board-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box {
+    margin: 02.5% 22.5% 00% 22.5%;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+    background-color: #282c34;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-post-input {
+    display: block;
+    width: 95%;
+    margin: 02.5% auto 00% auto;
+    padding: 00.5% 00.5% 00.5% 00.5%;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-post-btn, #parent-container #presentational #bulletin-board-page #bb-post-box #bb-share-btn {
+    margin: 00.5% 00% 00.5% 68%;
+    padding: 01% 02.5% 01% 02.5%;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-post-box #bb-share-btn {
+    margin: 00.5% 00% 00.5% 01%;
+    padding: 01% 02.5% 01% 02.5%;
+    border-radius: 05px;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread {
+    height: 79vmin;
+    margin: 01% 20% 01% 20%;
+    padding: 01% 01% 01% 01%;
+    text-align: justify;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry legend {
+    font-size: 01.75vmin;
+    font-weight: bold;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry span {
+    font-style: italic;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #bulletin-board-page #bb-thread .bb-thread-entry p {
+    padding: 00.5% 00.5% 00.5% 00.5%;
+  }
+  #parent-container #presentational #bulletin-board-page #ad-space-left {
+    float: left;
+    width: 20vmin;
+    height: 122vmin;
+    margin: -122% 00% 00% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page #ad-space-right {
+    float: right;
+    width: 20vmin;
+    height: 122vmin;
+    margin: -122% 00% 00% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad {
+    margin: 00% 00% 07.5% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad .ad-img {
+    width: 15vmin;
+    height: 07.5vmin;
+    margin: 01% 00% 00% 00%;
+  }
+  #parent-container #presentational #bulletin-board-page .ad p {
+    margin: 01% 12% 01% 12%;
+    font-size: 01.25vmin;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page {
+    height: 123.4vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-name {
+    display: block;
+    font-size: 03.5vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-age, #parent-container #presentational #profile-page .user-details .user-location {
+    display: block;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .user-details .user-location {
+    display: block;
+    margin: 00% 00% 00.5% 00%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page #smartphone-tabs {
+    display: none;
+  }
+  #parent-container #presentational #profile-page #profile-tabs {
+    margin: 00% 00% 00% 25.55%;
+  }
+  #parent-container #presentational #profile-page .about-me-section {
+    margin: 00% 02.5% 00% 02.5%;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page .about-me-section fieldset {
+    margin: 01.5% 00% 02.5% 00%;
+  }
+  #parent-container #presentational #profile-page .about-me-section fieldset legend {
+    font-size: 01.75vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .bio {
+    font-size: 01.75vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .bio legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions {
+    display: inline-block;
+    margin: 00% 02.625% 00% 00%;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 03%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list {
+    width: 35vmin;
+    height: 15vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item {
+    padding: 01% 00% 01% 01%;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item span {
+    margin: 00% 00% 10% 02.5%;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:nth-child(odd) {
+    background-color: #afafaf;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .companions .companion-list .companion-list-item:hover {
+    background-color: #28a745;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities {
+    display: inline-block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons {
+    width: 53.8vmin;
+    height: 15vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span {
+    display: inline-block;
+    margin: 01% 02% 00% 02%;
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span i {
+    display: block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-activities .activity-icons span:hover {
+    color: #28a745;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations legend {
+    margin: 00% 00% 00% 00%;
+    padding: 00% 00% 00% 00.5%;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span {
+    display: inline-block;
+    margin: 01% 02% 00% 02%;
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span i {
+    display: block;
+  }
+  #parent-container #presentational #profile-page .about-me-section .favorite-destinations .destination-icons span:hover {
+    color: #28a745;
+  }
+  #parent-container #presentational #profile-page .travel-log-section {
+    margin: 01% 02.5% 01% 02.5%;
+    text-align: justify;
+  }
+  #parent-container #presentational #profile-page .travel-log-section legend {
+    font-size: 01.75vmin;
+    font-weight: bold;
+  }
+  #parent-container #presentational #profile-page .travel-log-section .travel-log-entry-list {
+    height: 96.5vmin;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  #parent-container #presentational #profile-page .travel-log-section .travel-log-entry-list .travel-log-entry span {
+    font-style: italic;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #map-page {
+    height: 123.4vmin;
+    background-color: #e2dddd;
+  }
+  #parent-container #presentational #map-page .modal-header {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #map-page .close {
+    color: #f5f5f5;
+  }
+  #parent-container #presentational #map-page .close:hover {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #map-page .country-info {
+    font-size: 02.5vmin;
+    font-weight: bolder;
+    color: #282c34;
+  }
+  #parent-container #presentational #map-page #country-name {
+    font-size: 03vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #map-page #country-native {
+    font-size: 03vmin;
+    font-weight: lighter;
+    color: #6c757d;
+  }
+  #parent-container #presentational #map-page .box {
+    margin: 05% 00% 00% 00%;
+  }
+  #parent-container #presentational #map-page #id01 {
+    background-color: #282c34;
+    opacity: 95%;
+  }
+  #parent-container #presentational #map-page #id01 .modal-content {
+    margin: 20% 00% 00% 00%;
+  }
+  #parent-container #presentational #map-page #id03 {
+    display: none;
+    height: 36.4vmin;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  }
+  #parent-container #presentational #map-page #id04 {
+    display: none;
+    background-color: #f5f5f5;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  #parent-container #presentational #map-page #id05 {
+    display: none;
+    height: 36.4vmin;
+    background-color: #f5f5f5;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+  }
+  #parent-container #presentational #map-page #weather-cell-container,
+  #parent-container #presentational #map-page #tides {
+    width: 250vmin;
+    height: 20vmin;
+    padding: 00% 03.5% 00% 00%;
+  }
+  #parent-container #presentational #map-page #weather-cell {
+    float: left;
+    text-align: center;
+    border: 01px solid #282c34;
+    border-radius: 05px;
+    margin: 00.125% 00.125% 00.125% 00.125%;
+    padding: 00% 00.125% 00% 00.125%;
+    height: 100%;
+    width: 06%;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  #parent-container #presentational #map-page #tidal-graph .domain {
+    color: sandybrown;
+    stroke-width: 2;
+  }
+  #parent-container #presentational #map-page #tidal-graph .tick {
+    color: #6c757d;
+    font-weight: bolder;
+    opacity: 75%;
+  }
+  #parent-container #presentational #map-page #line {
+    fill: none;
+    stroke: #20c997;
+    stroke-width: 4;
+    stroke-linejoin: round;
+  }
+  #parent-container #presentational #map-page #line2 {
+    fill: none;
+    stroke: #17a2b8;
+    stroke-width: 4;
+    stroke-linejoin: round;
+  }
+  #parent-container #presentational #map-page #date {
+    font-size: 02vmin;
+    border-bottom: 1px solid #282c34;
+  }
+  #parent-container #presentational #map-page #high-temp {
+    font-size: 03.5vmin;
+    color: #fa4646;
+    text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+  }
+  #parent-container #presentational #map-page #low-temp {
+    font-size: 01.75vmin;
+    color: #4646ff;
+    text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+  }
+  #parent-container #presentational #map-page #enhance {
+    font-size: 02vmin;
+    margin-right: 05%;
+  }
+  #parent-container #presentational #map-page #wind {
+    font-size: 02vmin;
+  }
+  #parent-container #presentational #map-page .sphere {
+    fill: #57a7f8;
+  }
+  #parent-container #presentational #map-page .country {
+    stroke: #0d6efd;
+    stroke-width: 0.25;
+  }
+  #parent-container #presentational #map-page .country:hover {
+    opacity: 80%;
+    stroke-width: 2.5;
+  }
+  #parent-container #presentational #map-page .north-america {
+    fill: #ffc107;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .south-america {
+    fill: #fd7e14;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .europe {
+    fill: #0d6efd;
+    stroke: #f5f5f5;
+  }
+  #parent-container #presentational #map-page .africa {
+    fill: #dc3545;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .asia,
+  #parent-container #presentational #map-page #Russia {
+    fill: #28a745;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .oceania {
+    fill: #6f42c1;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .antarctica {
+    fill: #f5f5f5;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page .open-ocean {
+    fill: #e83e8c;
+    stroke: #282c34;
+  }
+  #parent-container #presentational #map-page #map-legend {
+    width: 100%;
+  }
+  #parent-container #presentational #map-page #map-legend #map-legend-hdr {
+    display: block;
+    margin: 00% 00% 01% 00%;
+    font-weight: bolder;
+  }
+  #parent-container #presentational #map-page #map-legend .keys .key-color {
+    display: inline-block;
+    width: 02vmin;
+    height: 02vmin;
+    margin: 00% 00% 00% 01%;
+    border: 00.25px solid #282c34;
+  }
+  #parent-container #presentational #map-page #map-legend .keys .key-label {
+    margin: 00% 00% 00% 00.5%;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #na-key {
+    background-color: #ffc107;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #sa-key {
+    background-color: #fd7e14;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #eu-key {
+    background-color: #0d6efd;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #af-key {
+    background-color: #dc3545;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #as-key {
+    background-color: #28a745;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #oc-key {
+    background-color: #6f42c1;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #an-key {
+    background-color: #f5f5f5;
+  }
+  #parent-container #presentational #map-page #map-legend .keys #oo-key {
+    background-color: #e83e8c;
+  }
+  #parent-container #presentational #map-page #map-legend #map-pin-container {
+    width: 100vmin;
+    height: 03vmin;
+    margin: 01% auto 00% auto;
+  }
+  #parent-container #presentational #map-page #map-legend .map-pin {
+    font-size: 02.5vmin;
+  }
+  #parent-container #presentational #map-page #map-legend #map-pin-btn {
+    display: block;
+    margin: 01% auto 00% auto;
+    font-size: 02vmin;
+    font-weight: lighter;
+  }
+  #parent-container #presentational #settings-page {
+    height: 123.4vmin;
+  }
+  #parent-container #presentational #settings-page #settings-hdr {
+    font-size: 03.5vmin;
+    font-weight: lighter;
+  }
+  #parent-container footer {
+    width: 100%;
+    height: 04vmin;
+    text-align: center;
+    background-color: #0d6efd;
+    color: #f5f5f5;
+  }
+  #parent-container footer span {
+    text-align: center;
+    font-size: 01.5vmin;
+  }
+}
+/*# sourceMappingURL=tablet.css.map */

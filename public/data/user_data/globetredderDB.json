@@ -1,0 +1,177 @@
+{
+  "version": "0.0.1",
+  "authors": ["Anthony Bosek", "Randy Walters", "Bryan Wolf"],
+  "site_address": "www.globetredder.com",
+  "established_date": "07/13/2021",
+  "globetredder_users": [
+    {
+      "log_info": {
+        "user_id": "01",
+        "username": "abosek",
+        "password": "4darkness",
+        "loggedIn": true
+      },
+      "user_info": {
+        "name": { "first_name": "Anthony", "last_name": "Bosek" },
+        "email": "abosek006@gmail.com",
+        "age": "40",
+        "city": "Downey",
+        "state": "CA",
+        "reset_password": {
+          "question": "What was the name of your first pet?",
+          "answer": "darkness =)"
+        }
+      }
+    },
+    {
+      "log_info": {
+        "user_id": "02",
+        "username": "r_dub928",
+        "password": "rjwalters",
+        "loggedIn": true
+      },
+      "user_info": {
+        "name": { "first_name": "Randy", "last_name": "Walters" },
+        "email": "rjwalterz@aol.com",
+        "age": "50",
+        "city": "Prescott",
+        "state": "AZ",
+        "reset_password": {
+          "question": "What is your mother's maiden name?",
+          "answer": "Pierce"
+        }
+      }
+    },
+    {
+      "log_info": {
+        "user_id": "03",
+        "username": "bwolf",
+        "password": "bmw102990",
+        "loggedIn": true
+      },
+      "user_info": {
+        "name": { "first_name": "Bryan", "last_name": "Wolf" },
+        "email": "wolf.m.bryan@gmail.com",
+        "age": "30",
+        "city": "Phoenix",
+        "state": "AZ",
+        "reset_password": {
+          "question": "What was the name of your first school?",
+          "answer": "Decorah"
+        }
+      }
+    },
+    {
+      "log_info": {
+        "user_id": "04",
+        "username": "hkane",
+        "password": "totIsHome",
+        "loggedIn": false
+      },
+      "user_info": {
+        "name": { "first_name": "Harry", "last_name": "Kane" },
+        "email": "",
+        "age": "",
+        "city": "London",
+        "state": "England",
+        "reset_password": { "question": "", "answer": "" }
+      }
+    },
+    {
+      "log_info": {
+        "user_id": "05",
+        "username": "ktrippier",
+        "password": "atletiCO",
+        "loggedIn": false
+      },
+      "user_info": {
+        "name": { "first_name": "Kerrian", "last_name": "Trippier" },
+        "email": "",
+        "age": "",
+        "city": "Madrid",
+        "state": "Spain",
+        "reset_password": { "question": "", "answer": "" }
+      }
+    },
+    {
+      "log_info": {
+        "user_id": "06",
+        "username": "sramos",
+        "password": "47majTrophy",
+        "loggedIn": true
+      },
+      "user_info": {
+        "name": { "first_name": "Sergio", "last_name": "Ramos" },
+        "email": "",
+        "age": "",
+        "city": "Paris",
+        "state": "France",
+        "reset_password": { "question": "", "answer": "" }
+      }
+    },
+    {
+      "log_info": {
+        "user_id": "07",
+        "username": "mnauer",
+        "password": "KEEpKEEp",
+        "loggedIn": true
+      },
+      "user_info": {
+        "name": { "first_name": "Manuel", "last_name": "Nauer" },
+        "email": "",
+        "age": "",
+        "city": "Munich",
+        "state": "Germany",
+        "reset_password": { "question": "", "answer": "" }
+      }
+    },
+    {
+      "log_info": {
+        "user_id": "08",
+        "username": "jbiel",
+        "password": "OOHlala",
+        "loggedIn": false
+      },
+      "user_info": {
+        "name": { "first_name": "Jessica", "last_name": "Biel" },
+        "email": "",
+        "age": "",
+        "city": "Hollywood",
+        "state": "CA",
+        "reset_password": { "question": "", "answer": "" }
+      }
+    },
+    {
+      "log_info": {
+        "user_id": "09",
+        "username": "mjohnson",
+        "password": "1w2h3o??",
+        "loggedIn": true
+      },
+      "user_info": {
+        "name": { "first_name": "Michelle", "last_name": "Johnson" },
+        "email": "",
+        "age": "",
+        "city": "New York",
+        "state": "NY",
+        "reset_password": { "question": "", "answer": "" }
+      }
+    },
+    {
+      "log_info": {
+        "user_id": "10",
+        "username": "kreynolds",
+        "password": "MaDeUp",
+        "loggedIn": true
+      },
+      "user_info": {
+        "name": { "first_name": "Kathy", "last_name": "Reynolds" },
+        "email": "",
+        "age": "",
+        "city": "Dallas",
+        "state": "TX",
+        "reset_password": { "question": "", "answer": "" }
+      }
+    }
+  ]
+}

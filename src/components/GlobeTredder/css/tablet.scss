@@ -1,0 +1,3567 @@
+// ipad pro landscape orientation
+@media screen and (max-width: 1366px) {
+  body {
+    background-color: #0d6efd;
+  }
+  #parent-container {
+    #login {
+      width: 100%;
+      height: 60vmin;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      #login-banner {
+        margin: 25% 00% 00% 00%;
+        text-align: center;
+        font-size: 07.5vmin;
+        font-weight: lighter;
+        background-color: #0d6efd;
+        color: #f5f5f5;
+
+        animation-name: fade-in;
+        animation-duration: 02s;
+        animation-timing-function: linear;
+
+        @keyframes fade-in {
+          0% {
+            opacity: 00%;
+          }
+          25% {
+            opacity: 25%;
+          }
+          50% {
+            opacity: 50%;
+          }
+          75% {
+            opacity: 75%;
+          }
+          100% {
+            opacity: 100%;
+          }
+        }
+        #banner-icon {
+          animation-name: blink;
+          animation-duration: 02s;
+          animation-delay: 02s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes blink {
+          0% {
+            color: #f5f5f5;
+          }
+          50% {
+            color: #28a745;
+          }
+          100% {
+            color: #f5f5f5;
+          }
+        }
+        #login-btn {
+          padding-left: 02.5%;
+          padding-right: 02.5%;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+        #signup-link {
+          font-size: 02vmin;
+          font-weight: lighter;
+          color: #f5f5f5;
+        }
+        #signup-link:hover {
+          color: #f5f5f5;
+        }
+      }
+      #login-card {
+        width: 35%;
+        height: 37.5vmin;
+        margin: 23% auto auto auto;
+        border-radius: 05px;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #0d6efd;
+
+        #login-back-arrow {
+          margin: 00.5% 00% 00% 01%;
+          float: left;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+        #login-back-arrow:hover {
+          color: #dc3545;
+        }
+        #login-card-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #login-user {
+          width: 75%;
+          margin: 05% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #login-pass {
+          @extend #login-user;
+        }
+        #alert {
+          color: #dc3545;
+        }
+        #sign-in-btn {
+          margin: 05% 00% 00% 00%;
+          padding-left: 07.5%;
+          padding-right: 07.5%;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+      }
+      #signup-card {
+        width: 35%;
+        height: 83.5vmin;
+        margin: 08% auto auto auto;
+        border-radius: 05px;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #0d6efd;
+
+        #signup-back-arrow {
+          margin: 00.5% 00% 00% 01%;
+          float: left;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+        #signup-back-arrow:hover {
+          color: #dc3545;
+        }
+        #signup-card-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #signup-first-name,
+        #signup-last-name,
+        #signup-age,
+        #signup-location-city,
+        #signup-location-state,
+        #signup-email,
+        #create-user,
+        #create-pass {
+          width: 75%;
+          margin: 05% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #signup-btn {
+          margin: 00% 00% 00% 00%;
+          padding-left: 07.5%;
+          padding-right: 07.5%;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+      }
+    }
+    nav {
+      width: 100%;
+      height: 06vmin;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      button {
+        margin: 00.8% 00% 00% 00.5%;
+        padding: 00.5% 00.75% 00.5% 00.75%;
+        border-radius: 05px;
+      }
+      span {
+        margin: 00% 00.75% 00% 00%;
+        float: right;
+        font-size: 03.5vmin;
+        font-weight: lighter;
+      }
+      .menu {
+        width: 15%;
+        margin: 00.496% 00% 00% 00%;
+        font-size: 01.75vmin;
+        border: 01px solid #0d6efd;
+        background-color: #0d6efd;
+
+        input {
+          width: 90%;
+          margin: 02.5% 00% 00% 04.5%;
+          border: 01px solid #0d6efd;
+          border-radius: 05px;
+          text-align: center;
+        }
+        .dropdown-item {
+          color: #f5f5f5;
+        }
+        .dropdown-item:hover {
+          background-color: #28a745;
+        }
+      }
+    }
+    #presentational {
+      width: 100%;
+      height: 90vmin;
+      text-align: center;
+      overflow-y: scroll;
+      scrollbar-width: none;
+
+      .page {
+        height: 106vmin;
+        background-color: rgb(226, 221, 221);
+        color: #282c34;
+      }
+      #account-info-page {
+        #account-info-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+
+        #credentials-info {
+          button {
+            margin: 02.5% 00.25% 02.5% 00%;
+            font-size: 01.75vmin;
+            font-weight: lighter;
+          }
+        }
+        #profile-info {
+          fieldset {
+            margin: 01% 00% 00% 01%;
+            text-align: left;
+
+            label {
+              display: block;
+            }
+            .favorites-span {
+              display: block;
+            }
+            textarea {
+              display: block;
+              width: 99%;
+              height: 12.5vmin;
+              border: 01px solid #6c757d;
+              border-radius: 05px;
+            }
+
+            .activity-list {
+              display: inline-block;
+              width: 65vmin;
+              height: 47vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .activity-list-item {
+                padding: 01% 02% 02.25% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+                button {
+                  float: right;
+                  margin: 00.55% 00% 00% 00%;
+                }
+              }
+
+              .activity-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .activity-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .activity-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+
+            .destination-list {
+              display: inline-block;
+              width: 65vmin;
+              height: 47vmin;
+              margin: 00% 00% 00% 00.5%;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .destination-list-item {
+                padding: 01% 02% 02.25% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+                button {
+                  float: right;
+                  margin: 00.55% 00% 00% 00%;
+                }
+              }
+
+              .destination-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .destination-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .destination-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+          }
+        }
+        #id09,
+        #id11 {
+          display: none;
+          background-color: #282c34;
+          opacity: 95%;
+
+          .modal-content {
+            margin: 20% 00% 00% 00%;
+          }
+          .modal-header {
+            background-color: #0d6efd;
+          }
+          .close {
+            color: #f5f5f5;
+          }
+          .close:hover {
+            background-color: #dc3545;
+          }
+          #update-hdr,
+          #delete-hdr {
+            margin: 00% 00% 00% 00%;
+            font-size: 03vmin;
+          }
+          .w3-col {
+            margin: 03% 00% 00% 00%;
+          }
+          input {
+            border: 01px solid #6c757d;
+            border-radius: 05px;
+            text-align: center;
+          }
+        }
+      }
+      #my-circle-page {
+        height: 90vmin;
+        #my-circle-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #circle-list {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 84vmin;
+          overflow-y: scroll;
+          scrollbar-width: none;
+
+          .circle-list-entry {
+            height: 10vmin;
+            padding: 00.5% 01% 00% 00.5%;
+            font-size: 02vmin;
+            font-weight: lighter;
+
+            i {
+              float: left;
+              margin: 00% 00% 00.75% 00%;
+            }
+            span {
+              float: left;
+              margin: 00% 00% 00% 00.5%;
+            }
+            .circle-online-status {
+              float: right;
+              width: 10vmin;
+              .status-dot {
+                display: inline-block;
+                width: 01vmin;
+                height: 01vmin;
+                margin: 00% 05% 01.75% 00%;
+                border-radius: 50%;
+              }
+              .online {
+                background-color: #28a745;
+              }
+              .offline {
+                background-color: #dc3545;
+              }
+            }
+          }
+          .circle-list-entry:nth-child(odd) {
+            background-color: rgb(175, 175, 175);
+          }
+          .circle-list-entry:nth-child(even) {
+            background-color: #f5f5f5;
+          }
+          .circle-list-entry:hover {
+            background-color: #28a745;
+            color: #f5f5f5;
+            .status-dot {
+              background-color: #f5f5f5;
+            }
+          }
+        }
+      }
+      #bulletin-board-page {
+        height: 90vmin;
+        #bulletin-board-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #bb-post-box {
+          margin: 02.5% 25% 00% 25%;
+          border: 01px solid #282c34;
+          border-radius: 05px;
+          background-color: #282c34;
+          color: #f5f5f5;
+
+          #bb-post-input {
+            display: block;
+            width: 95%;
+            margin: 02.5% auto 00% auto;
+            padding: 00.5% 00.5% 00.5% 00.5%;
+            border: 01px solid #282c34;
+            border-radius: 05px;
+          }
+          #bb-post-btn {
+            margin: 00.5% 00% 00.5% 74%;
+            padding: 01% 02.5% 01% 02.5%;
+            border-radius: 05px;
+          }
+          #bb-share-btn {
+            @extend #bb-post-btn;
+            margin: 00.5% 00% 00.5% 01%;
+          }
+        }
+        #bb-thread {
+          height: 52vmin;
+          margin: 00.5% 20% 01% 20%;
+          padding: 01% 01% 01% 01%;
+          text-align: justify;
+          overflow-y: scroll;
+          scrollbar-width: none;
+
+          .bb-thread-entry {
+            legend {
+              font-size: 01.75vmin;
+              font-weight: bold;
+            }
+            span {
+              font-style: italic;
+              font-weight: lighter;
+            }
+            p {
+              padding: 00.5% 00.5% 00.5% 00.5%;
+            }
+          }
+        }
+        #ad-space-left {
+          float: left;
+          width: 20vmin;
+          height: 86.5vmin;
+          margin: -66% 00% 00% 01%;
+          overflow-y: scroll;
+          scrollbar-width: none;
+        }
+        #ad-space-right {
+          float: right;
+          width: 20vmin;
+          height: 86.5vmin;
+          margin: -66% 01% 00% 00%;
+          overflow-y: scroll;
+          scrollbar-width: none;
+        }
+        .ad {
+          margin: 00% 00% 07.5% 00%;
+
+          .ad-img {
+            width: 20vmin;
+            height: 10vmin;
+            margin: 01% 00% 00% 00%;
+          }
+          p {
+            margin: 01% 08% 01% 08%;
+            font-size: 01.5vmin;
+            text-align: justify;
+          }
+        }
+      }
+      #profile-page {
+        height: 90vmin;
+        .user-details {
+          .user-name {
+            display: block;
+            font-size: 02.5vmin;
+          }
+          .user-age {
+            display: block;
+            font-size: 01.5vmin;
+          }
+          .user-location {
+            @extend .user-age;
+            margin: 00% 00% 00.5% 00%;
+          }
+        }
+        #smartphone-tabs {
+          display: none;
+        }
+        #profile-tabs {
+          margin: 00% 00% 00% 36.45%;
+        }
+        .about-me-section {
+          margin: 00% 02.5% 00% 02.5%;
+          text-align: justify;
+
+          fieldset {
+            margin: 01.5% 00% 02.5% 00%;
+          }
+          .bio {
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+          }
+          .companions {
+            display: inline-block;
+            margin: 00% 02.625% 00% 00%;
+
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 03%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .companion-list {
+              width: 35vmin;
+              height: 15vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .companion-list-item {
+                padding: 01% 00% 01% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+              }
+
+              .companion-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .companion-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .companion-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+          }
+          .favorite-activities {
+            display: inline-block;
+
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .activity-icons {
+              width: 85.6vmin;
+              height: 15vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              span {
+                display: inline-block;
+                margin: 01% 02% 00% 02%;
+                text-align: center;
+                font-size: 01.5vmin;
+
+                i {
+                  display: block;
+                }
+              }
+              span:hover {
+                color: #28a745;
+              }
+            }
+          }
+          .favorite-destinations {
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .destination-icons {
+              span {
+                display: inline-block;
+                margin: 01% 02% 00% 02%;
+                text-align: center;
+                font-size: 01.5vmin;
+
+                i {
+                  display: block;
+                }
+              }
+              span:hover {
+                color: #28a745;
+              }
+            }
+          }
+        }
+        .travel-log-section {
+          margin: 01% 02.5% 01% 02.5%;
+          text-align: justify;
+
+          legend {
+            font-size: 01.75vmin;
+            font-weight: bold;
+          }
+          .travel-log-entry-list {
+            height: 65vmin;
+            overflow-y: scroll;
+            scrollbar-width: none;
+
+            .travel-log-entry {
+              span {
+                font-style: italic;
+                font-weight: lighter;
+              }
+            }
+          }
+        }
+      }
+      #map-page {
+        height: 90vmin;
+        background-color: rgb(226, 221, 221);
+
+        .modal-header {
+          background-color: #0d6efd;
+        }
+        .close {
+          color: #f5f5f5;
+        }
+        .close:hover {
+          background-color: #dc3545;
+        }
+        .country-info {
+          font-size: 02.5vmin;
+          font-weight: bolder;
+          color: #282c34;
+        }
+        #country-name {
+          font-size: 03vmin;
+          font-weight: lighter;
+        }
+        #country-native {
+          font-size: 03vmin;
+          font-weight: lighter;
+          color: #6c757d;
+        }
+        .box {
+          margin: 05% 00% 00% 00%;
+        }
+        #id01 {
+          background-color: #282c34;
+          opacity: 95%;
+
+          .modal-content {
+            margin: 20% 00% 00% 00%;
+          }
+        }
+        #id03 {
+          display: none;
+          height: 30.1vmin;
+          overflow-y: scroll;
+          scrollbar-width: thin;
+        }
+        #id04 {
+          display: none;
+          background-color: #f5f5f5;
+          overflow-x: scroll;
+          scrollbar-width: thin;
+          transform: rotate(180deg);
+        }
+        #id05 {
+          display: none;
+          height: 30.1vmin;
+          background-color: #f5f5f5;
+          overflow-y: scroll;
+          scrollbar-width: thin;
+        }
+        #weather-cell-container,
+        #tides {
+          width: 250vmin;
+          height: 20vmin;
+          padding: 00% 03.5% 00% 00%;
+        }
+        #weather-cell {
+          float: left;
+          text-align: center;
+          border: 01px solid #282c34;
+          // background-color: #f5f5f5;
+          border-radius: 05px;
+          margin: 00.125% 00.125% 00.125% 00.125%;
+          padding: 00% 00.125% 00% 00.125%;
+          height: 100%;
+          width: 06%;
+          transform: rotate(180deg);
+        }
+        #tidal-graph {
+          .domain {
+            color: sandybrown;
+            stroke-width: 2;
+          }
+          .tick {
+            color: #6c757d;
+            font-weight: bolder;
+            opacity: 75%;
+          }
+        }
+        #line {
+          fill: none;
+          stroke: #20c997;
+          stroke-width: 4;
+          stroke-linejoin: round;
+        }
+        #line2 {
+          fill: none;
+          stroke: #17a2b8;
+          stroke-width: 4;
+          stroke-linejoin: round;
+        }
+        #date {
+          font-size: 02vmin;
+          border-bottom: 1px solid #282c34;
+        }
+        #high-temp {
+          font-size: 03.5vmin;
+          color: #dc3545;
+          text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+        }
+        #low-temp {
+          font-size: 01.75vmin;
+          color: #0d6efd;
+          text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+        }
+        #enhance {
+          font-size: 02vmin;
+          margin-right: 05%;
+        }
+        #wind {
+          font-size: 02vmin;
+        }
+        .sphere {
+          fill: rgb(87, 167, 248);
+        }
+        .country {
+          stroke: #0d6efd;
+          stroke-width: 0.25;
+        }
+        .country:hover {
+          opacity: 80%;
+          stroke-width: 2.5;
+        }
+        .north-america {
+          fill: #ffc107;
+          stroke: #282c34;
+        }
+        .south-america {
+          fill: #fd7e14;
+          stroke: #282c34;
+        }
+        .europe {
+          fill: #0d6efd;
+          stroke: #f5f5f5;
+        }
+        .africa {
+          fill: #dc3545;
+          stroke: #282c34;
+        }
+        .asia,
+        #Russia {
+          fill: #28a745;
+          stroke: #282c34;
+        }
+        .oceania {
+          fill: #6f42c1;
+          stroke: #282c34;
+        }
+        .antarctica {
+          fill: #f5f5f5;
+          stroke: #282c34;
+        }
+        .open-ocean {
+          fill: #e83e8c;
+          stroke: #282c34;
+        }
+        #map-legend {
+          width: 100%;
+
+          #map-legend-hdr {
+            display: block;
+            margin: 00% 00% 01% 00%;
+            font-weight: bolder;
+          }
+          .keys {
+            .key-color {
+              display: inline-block;
+              width: 02vmin;
+              height: 02vmin;
+              margin: 00% 00% 00% 02.5%;
+              border: 00.25px solid #282c34;
+            }
+            .key-label {
+              margin: 00% 02.5% 00% 00.5%;
+            }
+            #na-key {
+              background-color: #ffc107;
+            }
+            #sa-key {
+              background-color: #fd7e14;
+            }
+            #eu-key {
+              background-color: #0d6efd;
+            }
+            #af-key {
+              background-color: #dc3545;
+            }
+            #as-key {
+              background-color: #28a745;
+            }
+            #oc-key {
+              background-color: #6f42c1;
+            }
+            #an-key {
+              background-color: #f5f5f5;
+            }
+            #oo-key {
+              background-color: #e83e8c;
+            }
+          }
+          #map-pin-container {
+            width: 100vmin;
+            height: 03vmin;
+            margin: 01% auto 00% auto;
+          }
+          .map-pin {
+            font-size: 02.5vmin;
+          }
+          #map-pin-btn {
+            display: block;
+            margin: 01% auto 00% auto;
+            font-size: 02vmin;
+            font-weight: lighter;
+          }
+        }
+      }
+      #settings-page {
+        height: 90vmin;
+        #settings-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+      }
+    }
+    footer {
+      width: 100%;
+      height: 04vmin;
+      text-align: center;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      span {
+        text-align: center;
+        font-size: 01.5vmin;
+      }
+    }
+  }
+}
+// ipad pro portrait orientation
+@media screen and (max-width: 1365px) {
+  body {
+    background-color: #0d6efd;
+  }
+  #parent-container {
+    #login {
+      width: 100%;
+      height: 70vmin;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      #login-banner {
+        margin: 47.5% 00% 00% 00%;
+        text-align: center;
+        font-size: 07.5vmin;
+        font-weight: lighter;
+        background-color: #0d6efd;
+        color: #f5f5f5;
+
+        animation-name: fade-in;
+        animation-duration: 02s;
+        animation-timing-function: linear;
+
+        @keyframes fade-in {
+          0% {
+            opacity: 00%;
+          }
+          25% {
+            opacity: 25%;
+          }
+          50% {
+            opacity: 50%;
+          }
+          75% {
+            opacity: 75%;
+          }
+          100% {
+            opacity: 100%;
+          }
+        }
+        #banner-icon {
+          animation-name: blink;
+          animation-duration: 02s;
+          animation-delay: 02s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes blink {
+          0% {
+            color: #f5f5f5;
+          }
+          50% {
+            color: #28a745;
+          }
+          100% {
+            color: #f5f5f5;
+          }
+        }
+        #login-btn {
+          padding-left: 02.5%;
+          padding-right: 02.5%;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+        #signup-link {
+          font-size: 02vmin;
+          font-weight: lighter;
+          color: #f5f5f5;
+        }
+        #signup-link:hover {
+          color: #f5f5f5;
+        }
+      }
+      #login-card {
+        width: 45%;
+        height: 37.5vmin;
+        margin: 47.5% auto auto auto;
+        border-radius: 05px;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #0d6efd;
+
+        #login-back-arrow {
+          margin: 00.5% 00% 00% 01%;
+          float: left;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+        #login-back-arrow:hover {
+          color: #dc3545;
+        }
+        #login-card-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #login-user {
+          width: 75%;
+          margin: 05% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #login-pass {
+          width: 75%;
+          margin: 05% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #alert {
+          color: #dc3545;
+        }
+        #sign-in-btn {
+          margin: 05% 00% 00% 00%;
+          padding-left: 07.5%;
+          padding-right: 07.5%;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+      }
+      #signup-card {
+        width: 45%;
+        height: 82.25vmin;
+        margin: 26% auto auto auto;
+        border-radius: 05px;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #0d6efd;
+
+        #signup-back-arrow {
+          margin: 00.5% 00% 00% 01%;
+          float: left;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+        #signup-back-arrow:hover {
+          color: #dc3545;
+        }
+        #signup-card-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #signup-first-name,
+        #signup-last-name,
+        #signup-age,
+        #signup-location-city,
+        #signup-location-state,
+        #signup-email,
+        #create-user,
+        #create-pass {
+          width: 75%;
+          margin: 05% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #signup-btn {
+          margin: 00% 00% 00% 00%;
+          padding-left: 07.5%;
+          padding-right: 07.5%;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+      }
+    }
+    nav {
+      width: 100%;
+      height: 06vmin;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      button {
+        margin: 01.2% 00% 00% 00.5%;
+        padding: 00.5% 00.75% 00.5% 00.75%;
+        border-radius: 05px;
+      }
+      span {
+        margin: 00% 00.75% 00% 00%;
+        float: right;
+        font-size: 03.5vmin;
+        font-weight: lighter;
+      }
+      .menu {
+        width: 20%;
+        margin: 00.496% 00% 00% 00%;
+        font-size: 01.75vmin;
+        border: 01px solid #0d6efd;
+        background-color: #0d6efd;
+
+        input {
+          width: 90%;
+          margin: 02.5% 00% 00% 04.5%;
+          border: 01px solid #0d6efd;
+          border-radius: 05px;
+          text-align: center;
+        }
+        .dropdown-item {
+          color: #f5f5f5;
+        }
+        .dropdown-item:hover {
+          background-color: #28a745;
+        }
+      }
+    }
+    #presentational {
+      width: 100%;
+      height: 123.4vmin;
+      text-align: center;
+      overflow-y: scroll;
+      scrollbar-width: none;
+
+      .page {
+        height: 123.4vmin;
+        background-color: rgb(226, 221, 221);
+        color: #282c34;
+      }
+      #account-info-page {
+        height: 123.4vmin;
+        #account-info-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+
+        #credentials-info {
+          button {
+            margin: 02.5% 00.25% 02.5% 00%;
+            font-size: 01.75vmin;
+            font-weight: lighter;
+          }
+        }
+        #profile-info {
+          fieldset {
+            margin: 01% 00% 00% 01%;
+            text-align: left;
+
+            label {
+              display: block;
+            }
+            .favorites-span {
+              display: block;
+            }
+            textarea {
+              display: block;
+              width: 99%;
+              height: 12.5vmin;
+              border: 01px solid #6c757d;
+              border-radius: 05px;
+            }
+
+            .activity-list {
+              display: inline-block;
+              width: 48.75vmin;
+              height: 82.75vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .activity-list-item {
+                padding: 01% 02% 02.25% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+                button {
+                  float: right;
+                  margin: 00.7% 00% 00% 00%;
+                }
+              }
+
+              .activity-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .activity-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .activity-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+
+            .destination-list {
+              display: inline-block;
+              width: 48.75vmin;
+              height: 82.75vmin;
+              margin: 00% 00% 00% 00.5%;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .destination-list-item {
+                padding: 01% 02% 02.25% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+                button {
+                  float: right;
+                  margin: 00.7% 00% 00% 00%;
+                }
+              }
+
+              .destination-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .destination-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .destination-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+          }
+        }
+        #id09,
+        #id11 {
+          display: none;
+          background-color: #282c34;
+          opacity: 95%;
+
+          .modal-content {
+            margin: 20% 00% 00% 00%;
+          }
+          .modal-header {
+            background-color: #0d6efd;
+          }
+          .close {
+            color: #f5f5f5;
+          }
+          .close:hover {
+            background-color: #dc3545;
+          }
+          #update-hdr,
+          #delete-hdr {
+            margin: 00% 00% 00% 00%;
+            font-size: 03vmin;
+          }
+          .w3-col {
+            margin: 03% 00% 00% 00%;
+          }
+          input {
+            border: 01px solid #6c757d;
+            border-radius: 05px;
+            text-align: center;
+          }
+        }
+      }
+      #my-circle-page {
+        height: 123.4vmin;
+        #my-circle-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #circle-list {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 84vmin;
+          overflow-y: scroll;
+          scrollbar-width: none;
+
+          .circle-list-entry {
+            height: 10vmin;
+            padding: 00.5% 01% 00% 00.5%;
+            font-size: 02vmin;
+            font-weight: lighter;
+
+            i {
+              float: left;
+              margin: 00% 00% 00.75% 00%;
+            }
+            span {
+              float: left;
+              margin: 00% 00% 00% 00.5%;
+            }
+            .circle-online-status {
+              float: right;
+              width: 10vmin;
+              .status-dot {
+                display: inline-block;
+                width: 01vmin;
+                height: 01vmin;
+                margin: 00% 05% 01.75% 00%;
+                border-radius: 50%;
+              }
+              .online {
+                background-color: #28a745;
+              }
+              .offline {
+                background-color: #dc3545;
+              }
+            }
+          }
+          .circle-list-entry:nth-child(odd) {
+            background-color: rgb(175, 175, 175);
+          }
+          .circle-list-entry:nth-child(even) {
+            background-color: #f5f5f5;
+          }
+          .circle-list-entry:hover {
+            background-color: #28a745;
+            color: #f5f5f5;
+            .status-dot {
+              background-color: #f5f5f5;
+            }
+          }
+        }
+      }
+      #bulletin-board-page {
+        height: 123.4vmin;
+        #bulletin-board-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #bb-post-box {
+          margin: 02.5% 22.5% 00% 22.5%;
+          border: 01px solid #282c34;
+          border-radius: 05px;
+          background-color: #282c34;
+          color: #f5f5f5;
+
+          #bb-post-input {
+            display: block;
+            width: 95%;
+            margin: 02.5% auto 00% auto;
+            padding: 00.5% 00.5% 00.5% 00.5%;
+            border: 01px solid #282c34;
+            border-radius: 05px;
+          }
+          #bb-post-btn {
+            margin: 00.5% 00% 00.5% 72%;
+            padding: 01% 02.5% 01% 02.5%;
+            border-radius: 05px;
+          }
+          #bb-share-btn {
+            margin: 00.5% 00% 00.5% 01%;
+            padding: 01% 02.5% 01% 02.5%;
+            border-radius: 05px;
+          }
+        }
+        #bb-thread {
+          height: 87vmin;
+          margin: 01% 20% 01% 20%;
+          padding: 01% 01% 01% 01%;
+          text-align: justify;
+          overflow-y: scroll;
+          scrollbar-width: none;
+
+          .bb-thread-entry {
+            legend {
+              font-size: 01.75vmin;
+              font-weight: bold;
+            }
+            span {
+              font-style: italic;
+              font-weight: lighter;
+            }
+            p {
+              padding: 00.5% 00.5% 00.5% 00.5%;
+            }
+          }
+        }
+        #ad-space-left {
+          float: left;
+          width: 20vmin;
+          height: 122vmin;
+          margin: -122% 00% 00% 00%;
+        }
+        #ad-space-right {
+          float: right;
+          width: 20vmin;
+          height: 122vmin;
+          margin: -122% 00% 00% 00%;
+        }
+        .ad {
+          margin: 00% 00% 07.5% 00%;
+
+          .ad-img {
+            width: 15vmin;
+            height: 07.5vmin;
+            margin: 01% 00% 00% 00%;
+          }
+          p {
+            margin: 01% 12% 01% 12%;
+            font-size: 01.25vmin;
+            text-align: justify;
+          }
+        }
+      }
+      #profile-page {
+        height: 123.4vmin;
+        .user-details {
+          .user-name {
+            display: block;
+            font-size: 03.5vmin;
+          }
+          .user-age {
+            display: block;
+            font-size: 01.5vmin;
+          }
+          .user-location {
+            display: block;
+            margin: 00% 00% 00.5% 00%;
+            font-size: 01.5vmin;
+          }
+        }
+        #smartphone-tabs {
+          display: none;
+        }
+        #profile-tabs {
+          margin: 00% 00% 00% 31.75%;
+        }
+        .about-me-section {
+          margin: 00% 02.5% 00% 02.5%;
+          text-align: justify;
+
+          fieldset {
+            margin: 01.5% 00% 02.5% 00%;
+          }
+          .bio {
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+          }
+          .companions {
+            display: inline-block;
+            margin: 00% 02.625% 00% 00%;
+
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 03%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .companion-list {
+              width: 35vmin;
+              height: 15vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .companion-list-item {
+                padding: 01% 00% 01% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+              }
+
+              .companion-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .companion-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .companion-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+          }
+          .favorite-activities {
+            display: inline-block;
+
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .activity-icons {
+              width: 54.7vmin;
+              height: 15vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              span {
+                display: inline-block;
+                margin: 01% 02% 00% 02%;
+                text-align: center;
+                font-size: 01.5vmin;
+
+                i {
+                  display: block;
+                }
+              }
+              span:hover {
+                color: #28a745;
+              }
+            }
+          }
+          .favorite-destinations {
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .destination-icons {
+              span {
+                display: inline-block;
+                margin: 01% 02% 00% 02%;
+                text-align: center;
+                font-size: 01.5vmin;
+
+                i {
+                  display: block;
+                }
+              }
+              span:hover {
+                color: #28a745;
+              }
+            }
+          }
+        }
+        .travel-log-section {
+          margin: 01% 02.5% 01% 02.5%;
+          text-align: justify;
+
+          legend {
+            font-size: 01.75vmin;
+            font-weight: bold;
+          }
+          .travel-log-entry-list {
+            height: 97vmin;
+            overflow-y: scroll;
+            scrollbar-width: none;
+
+            .travel-log-entry {
+              span {
+                font-style: italic;
+                font-weight: lighter;
+              }
+            }
+          }
+        }
+      }
+      #map-page {
+        height: 123.4vmin;
+        background-color: rgb(226, 221, 221);
+
+        .modal-header {
+          background-color: #0d6efd;
+        }
+        .close {
+          color: #f5f5f5;
+        }
+        .close:hover {
+          background-color: #dc3545;
+        }
+        .country-info {
+          font-size: 02.5vmin;
+          font-weight: bolder;
+          color: #282c34;
+        }
+        #country-name {
+          font-size: 03vmin;
+          font-weight: lighter;
+        }
+        #country-native {
+          font-size: 03vmin;
+          font-weight: lighter;
+          color: #6c757d;
+        }
+        .box {
+          margin: 05% 00% 00% 00%;
+        }
+        #id01 {
+          background-color: #282c34;
+          opacity: 95%;
+
+          .modal-content {
+            margin: 20% 00% 00% 00%;
+          }
+        }
+        #id03 {
+          display: none;
+          height: 30.1vmin;
+          overflow-y: scroll;
+          scrollbar-width: thin;
+        }
+        #id04 {
+          display: none;
+          background-color: #f5f5f5;
+          overflow-x: scroll;
+          scrollbar-width: thin;
+          transform: rotate(180deg);
+        }
+        #id05 {
+          display: none;
+          height: 30.1vmin;
+          background-color: #f5f5f5;
+          overflow-y: scroll;
+          scrollbar-width: thin;
+        }
+        #weather-cell-container,
+        #tides {
+          width: 250vmin;
+          height: 20vmin;
+          padding: 00% 03.5% 00% 00%;
+        }
+        #weather-cell {
+          float: left;
+          text-align: center;
+          border: 01px solid #282c34;
+          // background-color: #f5f5f5;
+          border-radius: 05px;
+          margin: 00.125% 00.125% 00.125% 00.125%;
+          padding: 00% 00.125% 00% 00.125%;
+          height: 100%;
+          width: 06%;
+          transform: rotate(180deg);
+        }
+        #tidal-graph {
+          .domain {
+            color: sandybrown;
+            stroke-width: 2;
+          }
+          .tick {
+            color: #6c757d;
+            font-weight: bolder;
+            opacity: 75%;
+          }
+        }
+        #line {
+          fill: none;
+          stroke: #20c997;
+          stroke-width: 4;
+          stroke-linejoin: round;
+        }
+        #line2 {
+          fill: none;
+          stroke: #17a2b8;
+          stroke-width: 4;
+          stroke-linejoin: round;
+        }
+        #date {
+          font-size: 02vmin;
+          border-bottom: 1px solid #282c34;
+        }
+        #high-temp {
+          font-size: 03.5vmin;
+          color: #dc3545;
+          text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+        }
+        #low-temp {
+          font-size: 01.75vmin;
+          color: #0d6efd;
+          text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+        }
+        #enhance {
+          font-size: 02vmin;
+          margin-right: 05%;
+        }
+        #wind {
+          font-size: 02vmin;
+        }
+        .sphere {
+          fill: rgb(87, 167, 248);
+        }
+        .country {
+          stroke: #0d6efd;
+          stroke-width: 0.25;
+        }
+        .country:hover {
+          opacity: 80%;
+          stroke-width: 2.5;
+        }
+        .north-america {
+          fill: #ffc107;
+          stroke: #282c34;
+        }
+        .south-america {
+          fill: #fd7e14;
+          stroke: #282c34;
+        }
+        .europe {
+          fill: #0d6efd;
+          stroke: #f5f5f5;
+        }
+        .africa {
+          fill: #dc3545;
+          stroke: #282c34;
+        }
+        .asia,
+        #Russia {
+          fill: #28a745;
+          stroke: #282c34;
+        }
+        .oceania {
+          fill: #6f42c1;
+          stroke: #282c34;
+        }
+        .antarctica {
+          fill: #f5f5f5;
+          stroke: #282c34;
+        }
+        .open-ocean {
+          fill: #e83e8c;
+          stroke: #282c34;
+        }
+        #map-legend {
+          width: 100%;
+
+          #map-legend-hdr {
+            display: block;
+            margin: 00% 00% 01% 00%;
+            font-weight: bolder;
+          }
+          .keys {
+            .key-color {
+              display: inline-block;
+              width: 02vmin;
+              height: 02vmin;
+              margin: 00% 00% 00% 02.5%;
+              border: 00.25px solid #282c34;
+            }
+            .key-label {
+              margin: 00% 00% 00% 00.5%;
+            }
+            #na-key {
+              background-color: #ffc107;
+            }
+            #sa-key {
+              background-color: #fd7e14;
+            }
+            #eu-key {
+              background-color: #0d6efd;
+            }
+            #af-key {
+              background-color: #dc3545;
+            }
+            #as-key {
+              background-color: #28a745;
+            }
+            #oc-key {
+              background-color: #6f42c1;
+            }
+            #an-key {
+              background-color: #f5f5f5;
+            }
+            #oo-key {
+              background-color: #e83e8c;
+            }
+          }
+          #map-pin-container {
+            width: 100vmin;
+            height: 03vmin;
+            margin: 01% auto 00% auto;
+          }
+          .map-pin {
+            font-size: 02.5vmin;
+          }
+          #map-pin-btn {
+            display: block;
+            margin: 01% auto 00% auto;
+            font-size: 02vmin;
+            font-weight: lighter;
+          }
+        }
+      }
+      #settings-page {
+        height: 123.4vmin;
+        #settings-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+      }
+    }
+    footer {
+      width: 100%;
+      height: 04vmin;
+      text-align: center;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      span {
+        text-align: center;
+        font-size: 01.5vmin;
+      }
+    }
+  }
+}
+// ipad pro/generic tablet transitional query
+@media screen and (max-height: 768px) {
+  body {
+    background-color: #0d6efd;
+  }
+  #parent-container {
+    #login {
+      width: 100%;
+      height: 70vmin;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      #login-banner {
+        margin: 22.5% 00% 00% 00%;
+        text-align: center;
+        font-size: 07.5vmin;
+        font-weight: lighter;
+        background-color: #0d6efd;
+        color: #f5f5f5;
+
+        animation-name: fade-in;
+        animation-duration: 02s;
+        animation-timing-function: linear;
+
+        @keyframes fade-in {
+          0% {
+            opacity: 00%;
+          }
+          25% {
+            opacity: 25%;
+          }
+          50% {
+            opacity: 50%;
+          }
+          75% {
+            opacity: 75%;
+          }
+          100% {
+            opacity: 100%;
+          }
+        }
+        #banner-icon {
+          animation-name: blink;
+          animation-duration: 02s;
+          animation-delay: 02s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes blink {
+          0% {
+            color: #f5f5f5;
+          }
+          50% {
+            color: #28a745;
+          }
+          100% {
+            color: #f5f5f5;
+          }
+        }
+        #login-btn {
+          padding-left: 02.5%;
+          padding-right: 02.5%;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+        #signup-link {
+          font-size: 02vmin;
+          font-weight: lighter;
+          color: #f5f5f5;
+        }
+        #signup-link:hover {
+          color: #f5f5f5;
+        }
+      }
+      #login-card {
+        width: 45%;
+        height: 42.5vmin;
+        margin: 20.5% auto auto auto;
+        border-radius: 05px;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #0d6efd;
+
+        #login-back-arrow {
+          margin: 00.5% 00% 00% 01%;
+          float: left;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+        #login-back-arrow:hover {
+          color: #dc3545;
+        }
+        #login-card-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #login-user {
+          width: 75%;
+          margin: 05% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #login-pass {
+          width: 75%;
+          margin: 05% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #alert {
+          color: #dc3545;
+        }
+        #sign-in-btn {
+          margin: 05% 00% 00% 00%;
+          padding-left: 07.5%;
+          padding-right: 07.5%;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+      }
+      #signup-card {
+        width: 45%;
+        height: 98vmin;
+        margin: 00.75% auto 00.5% auto;
+        border-radius: 05px;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #0d6efd;
+
+        #signup-back-arrow {
+          margin: 00.5% 00% 00% 01%;
+          float: left;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+        #signup-back-arrow:hover {
+          color: #dc3545;
+        }
+        #signup-card-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #signup-first-name,
+        #signup-last-name,
+        #signup-age,
+        #signup-location-city,
+        #signup-location-state,
+        #signup-email,
+        #create-user,
+        #create-pass {
+          width: 75%;
+          margin: 03.5% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #signup-btn {
+          margin: 00% 00% 00% 00%;
+          padding-left: 07.5%;
+          padding-right: 07.5%;
+          font-size: 02vmin;
+          font-weight: lighter;
+        }
+      }
+    }
+    nav {
+      width: 100%;
+      height: 06vmin;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      button {
+        margin: 00.5% 00% 00% 00.5%;
+        padding: 00.5% 00.75% 00.5% 00.75%;
+        border-radius: 05px;
+      }
+      span {
+        margin: 00% 00.75% 00% 00%;
+        float: right;
+        font-size: 03.5vmin;
+        font-weight: lighter;
+      }
+      .menu {
+        width: 20%;
+        margin: 00.496% 00% 00% 00%;
+        font-size: 02vmin;
+        border: 01px solid #0d6efd;
+        background-color: #0d6efd;
+
+        input {
+          width: 90%;
+          margin: 02.5% 00% 00% 04.5%;
+          border: 01px solid #0d6efd;
+          border-radius: 05px;
+          text-align: center;
+        }
+        .dropdown-item {
+          color: #f5f5f5;
+        }
+        .dropdown-item:hover {
+          background-color: #28a745;
+        }
+      }
+    }
+    #presentational {
+      width: 100%;
+      height: 90vmin;
+      text-align: center;
+      overflow-y: scroll;
+      scrollbar-width: none;
+
+      .page {
+        height: 90vmin;
+        background-color: rgb(226, 221, 221);
+        color: #282c34;
+      }
+      #account-info-page {
+        height: 90vmin;
+        #account-info-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+
+        #credentials-info {
+          button {
+            margin: 02.5% 00.25% 02.5% 00%;
+            font-size: 02vmin;
+            font-weight: lighter;
+          }
+        }
+        #profile-info {
+          fieldset {
+            margin: 00.5% 00% 00% 01%;
+            text-align: left;
+
+            label {
+              display: block;
+            }
+            .favorites-span {
+              display: block;
+            }
+            textarea {
+              display: block;
+              width: 99%;
+              height: 12.5vmin;
+              border: 01px solid #6c757d;
+              border-radius: 05px;
+            }
+
+            .activity-list {
+              display: inline-block;
+              width: 65vmin;
+              height: 44vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .activity-list-item {
+                padding: 01.75% 02% 05% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+                button {
+                  float: right;
+                  margin: 00.7% 00% 00% 00%;
+                }
+              }
+              .activity-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .activity-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .activity-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+
+            .destination-list {
+              display: inline-block;
+              width: 65vmin;
+              height: 44vmin;
+              margin: 00% 00% 00% 00.5%;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .destination-list-item {
+                padding: 01.75% 02% 05% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+                button {
+                  float: right;
+                  margin: 00.7% 00% 00% 00%;
+                }
+              }
+              .destination-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .destination-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .destination-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+          }
+        }
+        #id09,
+        #id11 {
+          display: none;
+          background-color: #282c34;
+          opacity: 95%;
+
+          .modal-content {
+            margin: 20% 00% 00% 00%;
+          }
+          .modal-header {
+            background-color: #0d6efd;
+          }
+          .close {
+            color: #f5f5f5;
+          }
+          .close:hover {
+            background-color: #dc3545;
+          }
+          #update-hdr,
+          #delete-hdr {
+            margin: 00% 00% 00% 00%;
+            font-size: 03vmin;
+          }
+          .w3-col {
+            margin: 03% 00% 00% 00%;
+          }
+          input {
+            border: 01px solid #6c757d;
+            border-radius: 05px;
+            text-align: center;
+          }
+        }
+      }
+      #my-circle-page {
+        height: 90vmin;
+        #my-circle-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #circle-list {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 84.5vmin;
+          overflow-y: scroll;
+          scrollbar-width: none;
+
+          .circle-list-entry {
+            height: 10vmin;
+            padding: 00.5% 01% 00% 00.5%;
+            font-size: 02vmin;
+            font-weight: lighter;
+
+            i {
+              float: left;
+              margin: 00% 00% 00.75% 00%;
+            }
+            span {
+              float: left;
+              margin: 00% 00% 00% 00.5%;
+            }
+            .circle-online-status {
+              float: right;
+              width: 10vmin;
+              .status-dot {
+                display: inline-block;
+                width: 01vmin;
+                height: 01vmin;
+                margin: 00% 05% 01.75% 00%;
+                border-radius: 50%;
+              }
+              .online {
+                background-color: #28a745;
+              }
+              .offline {
+                background-color: #dc3545;
+              }
+            }
+          }
+          .circle-list-entry:nth-child(odd) {
+            background-color: rgb(175, 175, 175);
+          }
+          .circle-list-entry:nth-child(even) {
+            background-color: #f5f5f5;
+          }
+          .circle-list-entry:hover {
+            background-color: #28a745;
+            color: #f5f5f5;
+            .status-dot {
+              background-color: #f5f5f5;
+            }
+          }
+        }
+      }
+      #bulletin-board-page {
+        height: 90vmin;
+        #bulletin-board-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #bb-post-box {
+          margin: 02.5% 22.5% 00% 22.5%;
+          border: 01px solid #282c34;
+          border-radius: 05px;
+          background-color: #282c34;
+          color: #f5f5f5;
+
+          #bb-post-input {
+            display: block;
+            width: 95%;
+            margin: 02.5% auto 00% auto;
+            padding: 00.5% 00.5% 00.5% 00.5%;
+            border: 01px solid #282c34;
+            border-radius: 05px;
+          }
+          #bb-post-btn {
+            margin: 00.5% 00% 00.5% 72%;
+            padding: 01% 02.5% 01% 02.5%;
+            border-radius: 05px;
+          }
+          #bb-share-btn {
+            margin: 00.5% 00% 00.5% 01%;
+            padding: 01% 02.5% 01% 02.5%;
+            border-radius: 05px;
+          }
+        }
+        #bb-thread {
+          height: 43.5vmin;
+          margin: 01% 20% 01% 20%;
+          padding: 01% 01% 01% 01%;
+          text-align: justify;
+          overflow-y: scroll;
+          scrollbar-width: none;
+
+          .bb-thread-entry {
+            legend {
+              font-size: 01.75vmin;
+              font-weight: bold;
+            }
+            span {
+              font-style: italic;
+              font-weight: lighter;
+            }
+            p {
+              padding: 00.5% 00.5% 00.5% 00.5%;
+            }
+          }
+        }
+        #ad-space-left {
+          float: left;
+          width: 20vmin;
+          height: 86.5vmin;
+          margin: -66% 00% 00% 03%;
+        }
+        #ad-space-right {
+          float: right;
+          width: 20vmin;
+          height: 86.5vmin;
+          margin: -66% 03% 00% 00%;
+        }
+        .ad {
+          margin: 00% 00% 07.5% 00%;
+
+          .ad-img {
+            width: 20vmin;
+            height: 10vmin;
+            margin: 01% 00% 00% 00%;
+          }
+          p {
+            margin: 01% 08% 01% 08%;
+            font-size: 01.5vmin;
+            text-align: justify;
+          }
+        }
+      }
+      #profile-page {
+        height: 90vmin;
+        .user-details {
+          .user-name {
+            display: block;
+            font-size: 03.5vmin;
+          }
+          .user-age {
+            display: block;
+            font-size: 01.5vmin;
+          }
+          .user-location {
+            display: block;
+            margin: 00% 00% 00.5% 00%;
+            font-size: 01.5vmin;
+          }
+        }
+        #smartphone-tabs {
+          display: none;
+        }
+        #profile-tabs {
+          margin: 00% 00% 00% 31.75%;
+        }
+        .about-me-section {
+          margin: 00% 02.5% 00% 02.5%;
+          text-align: justify;
+          font-size: 01.75vmin;
+
+          fieldset {
+            margin: 01.5% 00% 00% 00%;
+
+            legend {
+              font-size: 01.75vmin;
+            }
+          }
+          .bio {
+            font-size: 01.75vmin;
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+          }
+          .companions {
+            display: inline-block;
+            margin: 00% 02.625% 00% 00%;
+
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 03%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .companion-list {
+              width: 40vmin;
+              height: 15vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .companion-list-item {
+                padding: 01% 00% 01% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+              }
+              .companion-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .companion-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .companion-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+          }
+          .favorite-activities {
+            display: inline-block;
+
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .activity-icons {
+              width: 79.7vmin;
+              height: 15vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              span {
+                display: inline-block;
+                margin: 01% 02% 00% 02%;
+                text-align: center;
+                font-size: 01.5vmin;
+
+                i {
+                  display: block;
+                }
+              }
+              span:hover {
+                color: #28a745;
+              }
+            }
+          }
+          .favorite-destinations {
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .destination-icons {
+              span {
+                display: inline-block;
+                margin: 01% 02% 00% 02%;
+                text-align: center;
+                font-size: 01.5vmin;
+
+                i {
+                  display: block;
+                }
+              }
+              span:hover {
+                color: #28a745;
+              }
+            }
+          }
+        }
+        .travel-log-section {
+          font-size: 01.75vmin;
+          margin: 01% 02.5% 01% 02.5%;
+          text-align: justify;
+
+          legend {
+            font-size: 01.75vmin;
+            font-weight: bold;
+          }
+          .travel-log-entry-list {
+            height: 62vmin;
+            overflow-y: scroll;
+            scrollbar-width: none;
+
+            .travel-log-entry {
+              span {
+                font-style: italic;
+                font-weight: lighter;
+              }
+            }
+          }
+        }
+      }
+      #map-page {
+        height: 90vmin;
+        background-color: rgb(226, 221, 221);
+
+        .modal-header {
+          background-color: #0d6efd;
+        }
+        .close {
+          color: #f5f5f5;
+        }
+        .close:hover {
+          background-color: #dc3545;
+        }
+        .country-info {
+          font-size: 02.5vmin;
+          font-weight: bolder;
+          color: #282c34;
+        }
+        #country-name {
+          font-size: 03vmin;
+          font-weight: lighter;
+        }
+        #country-native {
+          font-size: 03vmin;
+          font-weight: lighter;
+          color: #6c757d;
+        }
+        .box {
+          margin: 01% 00% 00% 00%;
+        }
+        #id01 {
+          background-color: #282c34;
+          opacity: 95%;
+
+          .modal-content {
+            margin: 00% 00% 00% 00%;
+          }
+        }
+        #id03 {
+          display: none;
+          height: 36.4vmin;
+          overflow-y: scroll;
+          scrollbar-width: thin;
+        }
+        #id04 {
+          display: none;
+          background-color: #f5f5f5;
+          overflow-x: scroll;
+          scrollbar-width: thin;
+          transform: rotate(180deg);
+        }
+        #id05 {
+          display: none;
+          height: 36.4vmin;
+          background-color: #f5f5f5;
+          overflow-y: scroll;
+          scrollbar-width: thin;
+        }
+        #weather-cell-container,
+        #tides {
+          width: 250vmin;
+          height: 20vmin;
+          padding: 00% 03.5% 00% 00%;
+        }
+        #weather-cell {
+          float: left;
+          text-align: center;
+          border: 01px solid #282c34;
+          // background-color: #f5f5f5;
+          border-radius: 05px;
+          margin: 00.125% 00.125% 00.125% 00.125%;
+          padding: 00% 00.125% 00% 00.125%;
+          height: 100%;
+          width: 06%;
+          transform: rotate(180deg);
+        }
+        #tidal-graph {
+          .domain {
+            color: sandybrown;
+            stroke-width: 2;
+          }
+          .tick {
+            color: #6c757d;
+            font-weight: bolder;
+            opacity: 75%;
+          }
+        }
+        #line {
+          fill: none;
+          stroke: #20c997;
+          stroke-width: 4;
+          stroke-linejoin: round;
+        }
+        #line2 {
+          fill: none;
+          stroke: #17a2b8;
+          stroke-width: 4;
+          stroke-linejoin: round;
+        }
+        #date {
+          font-size: 02vmin;
+          border-bottom: 1px solid #282c34;
+        }
+        #high-temp {
+          font-size: 03.5vmin;
+          color: #dc3545;
+          text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+        }
+        #low-temp {
+          font-size: 01.75vmin;
+          color: rgb(70, 70, 255);
+          text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+        }
+        #enhance {
+          font-size: 02vmin;
+          margin-right: 05%;
+        }
+        #wind {
+          font-size: 02vmin;
+        }
+        .sphere {
+          fill: rgb(87, 167, 248);
+        }
+        .country {
+          stroke: #0d6efd;
+          stroke-width: 0.25;
+        }
+        .country:hover {
+          opacity: 80%;
+          stroke-width: 2.5;
+        }
+        .north-america {
+          fill: #ffc107;
+          stroke: #282c34;
+        }
+        .south-america {
+          fill: #fd7e14;
+          stroke: #282c34;
+        }
+        .europe {
+          fill: #0d6efd;
+          stroke: #f5f5f5;
+        }
+        .africa {
+          fill: #dc3545;
+          stroke: #282c34;
+        }
+        .asia,
+        #Russia {
+          fill: #28a745;
+          stroke: #282c34;
+        }
+        .oceania {
+          fill: #6f42c1;
+          stroke: #282c34;
+        }
+        .antarctica {
+          fill: #f5f5f5;
+          stroke: #282c34;
+        }
+        .open-ocean {
+          fill: #e83e8c;
+          stroke: #282c34;
+        }
+        #map-legend {
+          width: 100%;
+
+          #map-legend-hdr {
+            display: block;
+            margin: 00% 00% 01% 00%;
+            font-weight: bolder;
+          }
+          .keys {
+            .key-color {
+              display: inline-block;
+              width: 02vmin;
+              height: 02vmin;
+              margin: 00% 00% 00% 02.5%;
+              border: 00.25px solid #282c34;
+            }
+            .key-label {
+              margin: 00% 00% 00% 00.5%;
+            }
+            #na-key {
+              background-color: #ffc107;
+            }
+            #sa-key {
+              background-color: #fd7e14;
+            }
+            #eu-key {
+              background-color: #0d6efd;
+            }
+            #af-key {
+              background-color: #dc3545;
+            }
+            #as-key {
+              background-color: #28a745;
+            }
+            #oc-key {
+              background-color: #6f42c1;
+            }
+            #an-key {
+              background-color: #f5f5f5;
+            }
+            #oo-key {
+              background-color: #e83e8c;
+            }
+          }
+          #map-pin-container {
+            width: 100vmin;
+            height: 03vmin;
+            margin: 01% auto 00% auto;
+          }
+          .map-pin {
+            font-size: 02.5vmin;
+          }
+          #map-pin-btn {
+            display: block;
+            margin: 01% auto 00% auto;
+            font-size: 02vmin;
+            font-weight: lighter;
+          }
+        }
+      }
+      #settings-page {
+        height: 90vmin;
+        #settings-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+      }
+    }
+    footer {
+      width: 100%;
+      height: 04vmin;
+      text-align: center;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      span {
+        text-align: center;
+        font-size: 01.5vmin;
+      }
+    }
+  }
+}
+// ipad pro/generic tablet transitional query
+@media screen and (width: 768px) {
+  body {
+    background-color: #0d6efd;
+  }
+  #parent-container {
+    #login {
+      width: 100%;
+      height: 70vmin;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      #login-banner {
+        margin: 47.5% 00% 00% 00%;
+        text-align: center;
+        font-size: 07.5vmin;
+        font-weight: lighter;
+        background-color: #0d6efd;
+        color: #f5f5f5;
+
+        animation-name: fade-in;
+        animation-duration: 02s;
+        animation-timing-function: linear;
+
+        @keyframes fade-in {
+          0% {
+            opacity: 00%;
+          }
+          25% {
+            opacity: 25%;
+          }
+          50% {
+            opacity: 50%;
+          }
+          75% {
+            opacity: 75%;
+          }
+          100% {
+            opacity: 100%;
+          }
+        }
+        #banner-icon {
+          animation-name: blink;
+          animation-duration: 02s;
+          animation-delay: 02s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes blink {
+          0% {
+            color: #f5f5f5;
+          }
+          50% {
+            color: #28a745;
+          }
+          100% {
+            color: #f5f5f5;
+          }
+        }
+        #login-btn {
+          padding-left: 02.5%;
+          padding-right: 02.5%;
+          font-size: 02.5vmin;
+          font-weight: lighter;
+        }
+        #signup-link {
+          font-size: 02.5vmin;
+          font-weight: lighter;
+          color: #f5f5f5;
+        }
+        #signup-link:hover {
+          color: #f5f5f5;
+        }
+      }
+      #login-card {
+        width: 50%;
+        height: 40.5vmin;
+        margin: 45.5% auto auto auto;
+        border-radius: 05px;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #0d6efd;
+
+        #login-back-arrow {
+          margin: 00.5% 00% 00% 01%;
+          float: left;
+          font-size: 02.5vmin;
+          font-weight: lighter;
+        }
+        #login-back-arrow:hover {
+          color: #dc3545;
+        }
+        #login-card-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #login-user {
+          width: 75%;
+          margin: 05% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #login-pass {
+          width: 75%;
+          margin: 05% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #alert {
+          color: #dc3545;
+        }
+        #sign-in-btn {
+          margin: 05% 00% 00% 00%;
+          padding-left: 07.5%;
+          padding-right: 07.5%;
+          font-size: 02.5vmin;
+          font-weight: lighter;
+        }
+      }
+      #signup-card {
+        width: 50%;
+        height: 91vmin;
+        margin: 22% auto auto auto;
+        border-radius: 05px;
+        text-align: center;
+        background-color: #f5f5f5;
+        color: #0d6efd;
+
+        #signup-back-arrow {
+          margin: 00.5% 00% 00% 01%;
+          float: left;
+          font-size: 02.5vmin;
+          font-weight: lighter;
+        }
+        #signup-back-arrow:hover {
+          color: #dc3545;
+        }
+        #signup-card-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #signup-first-name,
+        #signup-last-name,
+        #signup-age,
+        #signup-location-city,
+        #signup-location-state,
+        #signup-email,
+        #create-user,
+        #create-pass {
+          width: 75%;
+          margin: 03.5% 00% 01% 00%;
+          padding: 02.5% 00% 02.5% 00%;
+          border: 01px solid #6c757d;
+          border-radius: 05px;
+          text-align: center;
+        }
+        #signup-btn {
+          margin: 00% 00% 00% 00%;
+          padding-left: 07.5%;
+          padding-right: 07.5%;
+          font-size: 02.5vmin;
+          font-weight: lighter;
+        }
+      }
+    }
+    nav {
+      width: 100%;
+      height: 06vmin;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      button {
+        margin: 00.9% 00% 00% 00.5%;
+        padding: 00.5% 00.75% 00.5% 00.75%;
+        border-radius: 05px;
+      }
+      span {
+        margin: 00% 00.75% 00% 00%;
+        float: right;
+        font-size: 03.5vmin;
+        font-weight: lighter;
+      }
+      .menu {
+        width: 26%;
+        margin: 00.496% 00% 00% 00%;
+        font-size: 02vmin;
+        border: 01px solid #0d6efd;
+        background-color: #0d6efd;
+
+        input {
+          width: 90%;
+          margin: 02.5% 00% 00% 04.5%;
+          border: 01px solid #0d6efd;
+          border-radius: 05px;
+          text-align: center;
+        }
+        .dropdown-item {
+          color: #f5f5f5;
+        }
+        .dropdown-item:hover {
+          background-color: #28a745;
+        }
+      }
+    }
+    #presentational {
+      width: 100%;
+      height: 123.4vmin;
+      text-align: center;
+      overflow-y: scroll;
+      scrollbar-width: none;
+
+      .page {
+        height: 123.4vmin;
+        background-color: rgb(226, 221, 221);
+        color: #282c34;
+      }
+      #account-info-page {
+        height: 123.4vmin;
+        #account-info-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+
+        #credentials-info {
+          button {
+            margin: 02.5% 00.25% 02.5% 00%;
+            font-size: 02vmin;
+            font-weight: lighter;
+          }
+        }
+        #profile-info {
+          fieldset {
+            margin: 01% 00% 00% 01%;
+            text-align: left;
+
+            label {
+              display: block;
+            }
+            .favorites-span {
+              display: block;
+            }
+            textarea {
+              display: block;
+              width: 99%;
+              height: 12.5vmin;
+              border: 01px solid #6c757d;
+              border-radius: 05px;
+            }
+
+            .activity-list {
+              display: inline-block;
+              width: 48.75vmin;
+              height: 78vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .activity-list-item {
+                padding: 02.5% 02% 02.5% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+                button {
+                  float: right;
+                  margin: -01% 00% 00% 00%;
+                }
+              }
+              .activity-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .activity-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .activity-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+
+            .destination-list {
+              display: inline-block;
+              width: 48.75vmin;
+              height: 78vmin;
+              margin: 00% 00% 00% 00.5%;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .destination-list-item {
+                padding: 02.5% 02% 02.5% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+                button {
+                  float: right;
+                  margin: -01% 00% 00% 00%;
+                }
+              }
+              .destination-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .destination-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .destination-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+          }
+        }
+        #id09,
+        #id11 {
+          display: none;
+          background-color: #282c34;
+          opacity: 95%;
+
+          .modal-content {
+            margin: 20% 00% 00% 00%;
+          }
+          .modal-header {
+            background-color: #0d6efd;
+          }
+          .close {
+            color: #f5f5f5;
+          }
+          .close:hover {
+            background-color: #dc3545;
+          }
+          #update-hdr,
+          #delete-hdr {
+            margin: 00% 00% 00% 00%;
+            font-size: 03vmin;
+          }
+          .w3-col {
+            margin: 03% 00% 00% 00%;
+          }
+          input {
+            border: 01px solid #6c757d;
+            border-radius: 05px;
+            text-align: center;
+          }
+        }
+      }
+      #my-circle-page {
+        height: 123.4vmin;
+        #my-circle-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #circle-list {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 84vmin;
+          overflow-y: scroll;
+          scrollbar-width: none;
+
+          .circle-list-entry {
+            height: 10vmin;
+            padding: 00.5% 01% 00% 00.5%;
+            font-size: 02vmin;
+            font-weight: lighter;
+
+            i {
+              float: left;
+              margin: 00% 00% 00.75% 00%;
+            }
+            span {
+              float: left;
+              margin: 00% 00% 00% 00.5%;
+            }
+            .circle-online-status {
+              float: right;
+              width: 10vmin;
+              .status-dot {
+                display: inline-block;
+                width: 01vmin;
+                height: 01vmin;
+                margin: 00% 05% 01.75% 00%;
+                border-radius: 50%;
+              }
+              .online {
+                background-color: #28a745;
+              }
+              .offline {
+                background-color: #dc3545;
+              }
+            }
+          }
+          .circle-list-entry:nth-child(odd) {
+            background-color: rgb(175, 175, 175);
+          }
+          .circle-list-entry:nth-child(even) {
+            background-color: #f5f5f5;
+          }
+          .circle-list-entry:hover {
+            background-color: #28a745;
+            color: #f5f5f5;
+            .status-dot {
+              background-color: #f5f5f5;
+            }
+          }
+        }
+      }
+      #bulletin-board-page {
+        height: 123.4vmin;
+        #bulletin-board-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+        #bb-post-box {
+          margin: 02.5% 22.5% 00% 22.5%;
+          border: 01px solid #282c34;
+          border-radius: 05px;
+          background-color: #282c34;
+          color: #f5f5f5;
+
+          #bb-post-input {
+            display: block;
+            width: 95%;
+            margin: 02.5% auto 00% auto;
+            padding: 00.5% 00.5% 00.5% 00.5%;
+            border: 01px solid #282c34;
+            border-radius: 05px;
+          }
+          #bb-post-btn {
+            margin: 00.5% 00% 00.5% 68%;
+            padding: 01% 02.5% 01% 02.5%;
+            border-radius: 05px;
+          }
+          #bb-share-btn {
+            margin: 00.5% 00% 00.5% 01%;
+            padding: 01% 02.5% 01% 02.5%;
+            border-radius: 05px;
+          }
+        }
+        #bb-thread {
+          height: 79vmin;
+          margin: 01% 20% 01% 20%;
+          padding: 01% 01% 01% 01%;
+          text-align: justify;
+          overflow-y: scroll;
+          scrollbar-width: none;
+
+          .bb-thread-entry {
+            legend {
+              font-size: 01.75vmin;
+              font-weight: bold;
+            }
+            span {
+              font-style: italic;
+              font-weight: lighter;
+            }
+            p {
+              padding: 00.5% 00.5% 00.5% 00.5%;
+            }
+          }
+        }
+        #ad-space-left {
+          float: left;
+          width: 20vmin;
+          height: 122vmin;
+          margin: -122% 00% 00% 00%;
+        }
+        #ad-space-right {
+          float: right;
+          width: 20vmin;
+          height: 122vmin;
+          margin: -122% 00% 00% 00%;
+        }
+        .ad {
+          margin: 00% 00% 07.5% 00%;
+
+          .ad-img {
+            width: 15vmin;
+            height: 07.5vmin;
+            margin: 01% 00% 00% 00%;
+          }
+          p {
+            margin: 01% 12% 01% 12%;
+            font-size: 01.25vmin;
+            text-align: justify;
+          }
+        }
+      }
+      #profile-page {
+        height: 123.4vmin;
+        .user-details {
+          .user-name {
+            display: block;
+            font-size: 03.5vmin;
+          }
+          .user-age {
+            display: block;
+            font-size: 01.5vmin;
+          }
+          .user-location {
+            display: block;
+            margin: 00% 00% 00.5% 00%;
+            font-size: 01.5vmin;
+          }
+        }
+        #smartphone-tabs {
+          display: none;
+        }
+        #profile-tabs {
+          margin: 00% 00% 00% 25.55%;
+        }
+        .about-me-section {
+          margin: 00% 02.5% 00% 02.5%;
+          text-align: justify;
+
+          fieldset {
+            margin: 01.5% 00% 02.5% 00%;
+
+            legend {
+              font-size: 01.75vmin;
+            }
+          }
+          .bio {
+            font-size: 01.75vmin;
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+          }
+          .companions {
+            display: inline-block;
+            margin: 00% 02.625% 00% 00%;
+
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 03%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .companion-list {
+              width: 35vmin;
+              height: 15vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              .companion-list-item {
+                padding: 01% 00% 01% 01%;
+                font-size: 01.5vmin;
+
+                span {
+                  margin: 00% 00% 10% 02.5%;
+                }
+              }
+              .companion-list-item:nth-child(odd) {
+                background-color: rgb(175, 175, 175);
+              }
+              .companion-list-item:nth-child(even) {
+                background-color: #f5f5f5;
+              }
+              .companion-list-item:hover {
+                background-color: #28a745;
+                color: #f5f5f5;
+              }
+            }
+          }
+          .favorite-activities {
+            display: inline-block;
+
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .activity-icons {
+              width: 53.8vmin;
+              height: 15vmin;
+              overflow-y: scroll;
+              scrollbar-width: none;
+
+              span {
+                display: inline-block;
+                margin: 01% 02% 00% 02%;
+                text-align: center;
+                font-size: 01.5vmin;
+
+                i {
+                  display: block;
+                }
+              }
+              span:hover {
+                color: #28a745;
+              }
+            }
+          }
+          .favorite-destinations {
+            legend {
+              margin: 00% 00% 00% 00%;
+              padding: 00% 00% 00% 00.5%;
+              background-color: #0d6efd;
+              color: #f5f5f5;
+            }
+            .destination-icons {
+              span {
+                display: inline-block;
+                margin: 01% 02% 00% 02%;
+                text-align: center;
+                font-size: 01.5vmin;
+
+                i {
+                  display: block;
+                }
+              }
+              span:hover {
+                color: #28a745;
+              }
+            }
+          }
+        }
+        .travel-log-section {
+          margin: 01% 02.5% 01% 02.5%;
+          text-align: justify;
+
+          legend {
+            font-size: 01.75vmin;
+            font-weight: bold;
+          }
+          .travel-log-entry-list {
+            height: 96.5vmin;
+            overflow-y: scroll;
+            scrollbar-width: none;
+
+            .travel-log-entry {
+              span {
+                font-style: italic;
+                font-weight: lighter;
+              }
+            }
+          }
+        }
+      }
+      #map-page {
+        height: 123.4vmin;
+        background-color: rgb(226, 221, 221);
+
+        .modal-header {
+          background-color: #0d6efd;
+        }
+        .close {
+          color: #f5f5f5;
+        }
+        .close:hover {
+          background-color: #dc3545;
+        }
+        .country-info {
+          font-size: 02.5vmin;
+          font-weight: bolder;
+          color: #282c34;
+        }
+        #country-name {
+          font-size: 03vmin;
+          font-weight: lighter;
+        }
+        #country-native {
+          font-size: 03vmin;
+          font-weight: lighter;
+          color: #6c757d;
+        }
+        .box {
+          margin: 05% 00% 00% 00%;
+        }
+        #id01 {
+          background-color: #282c34;
+          opacity: 95%;
+
+          .modal-content {
+            margin: 20% 00% 00% 00%;
+          }
+        }
+        #id03 {
+          display: none;
+          height: 36.4vmin;
+          overflow-y: scroll;
+          scrollbar-width: thin;
+        }
+        #id04 {
+          display: none;
+          background-color: #f5f5f5;
+          overflow-x: scroll;
+          scrollbar-width: thin;
+          transform: rotate(180deg);
+        }
+        #id05 {
+          display: none;
+          height: 36.4vmin;
+          background-color: #f5f5f5;
+          overflow-y: scroll;
+          scrollbar-width: thin;
+        }
+        #weather-cell-container,
+        #tides {
+          width: 250vmin;
+          height: 20vmin;
+          padding: 00% 03.5% 00% 00%;
+        }
+        #weather-cell {
+          float: left;
+          text-align: center;
+          border: 01px solid #282c34;
+          // background-color: #f5f5f5;
+          border-radius: 05px;
+          margin: 00.125% 00.125% 00.125% 00.125%;
+          padding: 00% 00.125% 00% 00.125%;
+          height: 100%;
+          width: 06%;
+          transform: rotate(180deg);
+        }
+        #tidal-graph {
+          .domain {
+            color: sandybrown;
+            stroke-width: 2;
+          }
+          .tick {
+            color: #6c757d;
+            font-weight: bolder;
+            opacity: 75%;
+          }
+        }
+        #line {
+          fill: none;
+          stroke: #20c997;
+          stroke-width: 4;
+          stroke-linejoin: round;
+        }
+        #line2 {
+          fill: none;
+          stroke: #17a2b8;
+          stroke-width: 4;
+          stroke-linejoin: round;
+        }
+        #date {
+          font-size: 02vmin;
+          border-bottom: 1px solid #282c34;
+        }
+        #high-temp {
+          font-size: 03.5vmin;
+          color: rgb(250, 70, 70);
+          text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+        }
+        #low-temp {
+          font-size: 01.75vmin;
+          color: rgb(70, 70, 255);
+          text-shadow: 0.5px 0.5px #282c34, -0.5px -0.5px #f5f5f5;
+        }
+        #enhance {
+          font-size: 02vmin;
+          margin-right: 05%;
+        }
+        #wind {
+          font-size: 02vmin;
+        }
+        .sphere {
+          fill: rgb(87, 167, 248);
+        }
+        .country {
+          stroke: #0d6efd;
+          stroke-width: 0.25;
+        }
+        .country:hover {
+          opacity: 80%;
+          stroke-width: 2.5;
+        }
+        .north-america {
+          fill: #ffc107;
+          stroke: #282c34;
+        }
+        .south-america {
+          fill: #fd7e14;
+          stroke: #282c34;
+        }
+        .europe {
+          fill: #0d6efd;
+          stroke: #f5f5f5;
+        }
+        .africa {
+          fill: #dc3545;
+          stroke: #282c34;
+        }
+        .asia,
+        #Russia {
+          fill: #28a745;
+          stroke: #282c34;
+        }
+        .oceania {
+          fill: #6f42c1;
+          stroke: #282c34;
+        }
+        .antarctica {
+          fill: #f5f5f5;
+          stroke: #282c34;
+        }
+        .open-ocean {
+          fill: #e83e8c;
+          stroke: #282c34;
+        }
+        #map-legend {
+          width: 100%;
+
+          #map-legend-hdr {
+            display: block;
+            margin: 00% 00% 01% 00%;
+            font-weight: bolder;
+          }
+          .keys {
+            .key-color {
+              display: inline-block;
+              width: 02vmin;
+              height: 02vmin;
+              margin: 00% 00% 00% 01%;
+              border: 00.25px solid #282c34;
+            }
+            .key-label {
+              margin: 00% 00% 00% 00.5%;
+            }
+            #na-key {
+              background-color: #ffc107;
+            }
+            #sa-key {
+              background-color: #fd7e14;
+            }
+            #eu-key {
+              background-color: #0d6efd;
+            }
+            #af-key {
+              background-color: #dc3545;
+            }
+            #as-key {
+              background-color: #28a745;
+            }
+            #oc-key {
+              background-color: #6f42c1;
+            }
+            #an-key {
+              background-color: #f5f5f5;
+            }
+            #oo-key {
+              background-color: #e83e8c;
+            }
+          }
+          #map-pin-container {
+            width: 100vmin;
+            height: 03vmin;
+            margin: 01% auto 00% auto;
+          }
+          .map-pin {
+            font-size: 02.5vmin;
+          }
+          #map-pin-btn {
+            display: block;
+            margin: 01% auto 00% auto;
+            font-size: 02vmin;
+            font-weight: lighter;
+          }
+        }
+      }
+      #settings-page {
+        height: 123.4vmin;
+        #settings-hdr {
+          font-size: 03.5vmin;
+          font-weight: lighter;
+        }
+      }
+    }
+    footer {
+      width: 100%;
+      height: 04vmin;
+      text-align: center;
+      background-color: #0d6efd;
+      color: #f5f5f5;
+
+      span {
+        text-align: center;
+        font-size: 01.5vmin;
+      }
+    }
+  }
+}
